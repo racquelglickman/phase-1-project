@@ -4,8 +4,13 @@
 // button to add a show to new category
 // mouseover show to see title - what season and episode?
 
-
 let navOptions = document.querySelectorAll('nav h3');
+
+
+let showSearch = document.querySelector('#show-search');
+let inputShowSearch = document.querySelector('input-show-search');
+
+let displayedShows = document.querySelector('#displayed-shows');
 
 let categories = [
     {
@@ -34,37 +39,43 @@ let categories = [
     },
 ];
 
-console.log(categories);
-
-
-let showSearch = document.querySelector('#show-search');
-let inputShowSearch = document.querySelector('input-show-search');
-
-let displayedShows = document.querySelector('#displayed-shows');
-
-// when the page loads, default load the shows from current into displayed-shows
+// when the page loads, default load the shows from currently into displayed-shows
 let clickedCategory = 'currently';
 categories[0].element.style.textShadow = '1px 1px 2px';
 fetchData(categories[0].option);
 
 // add event listeners to each nav bar choice
 navOptions.forEach((navChoice) => {
+    
+    // selected nav category (full name) -> name of correct array in db.json (one word)
+    let navCategory = (navChoice.textContent.split(' ')[0]).toLowerCase();
 
+    // when you click an h3, add shadow and fetch data
     navChoice.addEventListener('click', () => {
         console.log(`${navChoice.textContent} was clicked`);
+        clickedCategory = navCategory;
 
-        // reset all dataset.clicks to false when you click
+        // reset textShadows for all h3 elements and adds textShadow to clicked
         navOptions.forEach((nav) => {
             nav.style.textShadow = '';
-        })
+        });
 
         navChoice.style.textShadow = '1px 1px 2px';
 
-        // selected nav category -> name of correct array in db.json
-        let navCategory = (navChoice.textContent.split(' ')[0]).toLowerCase();
-        clickedCategory = navCategory;
-
         fetchData(clickedCategory);
+    });
+
+    // when you mouseover any h3, text becomes shadowed
+    // when you mouseout, text changes back unless it's the clicked category
+    navChoice.addEventListener('mouseover', () => {
+        navChoice.style.textShadow = '1px 1px 2px';
+
+        navChoice.addEventListener('mouseout', () => {
+            if (clickedCategory !== navCategory) {
+                navChoice.style.textShadow = '';
+            };
+
+        });
     });
 });
 
