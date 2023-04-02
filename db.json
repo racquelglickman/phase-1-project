@@ -1,0 +1,1117 @@
+{
+  "currently": [
+    {
+      "url": "https://www.tvmaze.com/shows/36672/yellowjackets",
+      "name": "Yellowjackets",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2021-11-14",
+      "ended": null,
+      "officialSite": "https://sho.com/yellowjackets",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 7.1
+      },
+      "weight": 100,
+      "network": {
+        "id": 9,
+        "name": "Showtime",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.sho.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 399731,
+        "imdb": "tt11041332"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/449/1124396.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/449/1124396.jpg"
+      },
+      "summary": "<p><b>Yellowjackets</b> follows a girls' high school soccer team. In 1975, the Dearborn High Yellowjackets became the first team in state history to qualify for the Girls' U.S. Soccer Championship Series in Manchester, NH. They never got the chance to compete. Equal parts survival epic, horror story and pitch black coming of age, <i>Yellowjackets</i> tells the story of the (un)lucky survivors of a plane crash deep in the Ontario wilderness, chronicling their descent from a friendly, cooperative team to warring, cannibalistic clans. At the same time, it follows the lives they've attempted to piece back together nearly twenty-five years later, proving that the past is never really past and what began out in the wilderness is far from over.</p>",
+      "updated": 1680237123,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/36672"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2494918"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2498831"
+        }
+      },
+      "id": 1
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/51394/the-white-lotus",
+      "name": "The White Lotus",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 62,
+      "premiered": "2021-07-11",
+      "ended": null,
+      "officialSite": "https://www.hbo.com/the-white-lotus",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 6.7
+      },
+      "weight": 99,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 390430,
+        "imdb": "tt13406094"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/434/1085967.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/434/1085967.jpg"
+      },
+      "summary": "<p>A social satire set at an exclusive tropical resort, <b>The White Lotus</b> follows the exploits of various guests and employees over the span of a week.</p>",
+      "updated": 1674891263,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/51394"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2423328"
+        }
+      },
+      "id": 2
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
+      "name": "Law & Order: Special Victims Unit",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Legal"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "1999-09-20",
+      "ended": null,
+      "officialSite": "http://www.nbc.com/law-and-order-special-victims-unit",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Thursday"
+        ]
+      },
+      "rating": {
+        "average": 7.9
+      },
+      "weight": 100,
+      "network": {
+        "id": 1,
+        "name": "NBC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.nbc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 4204,
+        "thetvdb": 75692,
+        "imdb": "tt0203259"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/426/1065684.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/426/1065684.jpg"
+      },
+      "summary": "<p>In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.</p>",
+      "updated": 1680268269,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/103"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2500270"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2500271"
+        }
+      },
+      "id": 3
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/23470/succession",
+      "name": "Succession",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Family"
+      ],
+      "status": "Running",
+      "runtime": null,
+      "averageRuntime": 61,
+      "premiered": "2018-06-03",
+      "ended": null,
+      "officialSite": "https://www.hbo.com/succession",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 7.5
+      },
+      "weight": 100,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 338186,
+        "imdb": "tt7660850"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/453/1134275.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/453/1134275.jpg"
+      },
+      "summary": "<p><b>Succession </b>follows the saga of the Roys, a fictional, American global-media family that is not only rich and powerful but also powerfully dysfunctional. The drama will explore family loyalty, international business and the perils of power in the 21st century.</p><p>Power, politics, money...it's all in the family in this provocative, funny series about a highly dysfunctional dynasty. When Logan Roy, CEO of one of the world's largest media and entertainment conglomerates, considers retirement, each of his four grown children follows a personal agenda that doesn't always sync with those of their siblings--or of their father.</p>",
+      "updated": 1680295202,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/23470"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2479029"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2479923"
+        }
+      },
+      "id": 4
+    }
+  ],
+  "future": [
+    {
+      "url": "https://www.tvmaze.com/shows/321/arrested-development",
+      "name": "Arrested Development",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Comedy",
+        "Family"
+      ],
+      "status": "Ended",
+      "runtime": null,
+      "averageRuntime": 30,
+      "premiered": "2003-11-02",
+      "ended": "2019-03-15",
+      "officialSite": "https://www.netflix.com/title/70140358",
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": 8.3
+      },
+      "weight": 96,
+      "network": null,
+      "webChannel": {
+        "id": 1,
+        "name": "Netflix",
+        "country": null,
+        "officialSite": "https://www.netflix.com/"
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 2649,
+        "thetvdb": 72173,
+        "imdb": "tt0367279"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/338/846049.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/338/846049.jpg"
+      },
+      "summary": "<p>After being passed over as partner at The Bluth Co., widower Michael resolves to quit the family business and move away to spend more quality time with his 13-year-old son, George Michael. But when his father George Bluth Sr. is arrested for shifty accounting practices and the family assets are frozen, Michael is forced to stay in Orange County to help his wildly eccentric family pick up the pieces.</p>",
+      "updated": 1648987119,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/321"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1612265"
+        }
+      },
+      "id": 1
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/46562/the-last-of-us",
+      "name": "The Last of Us",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Action",
+        "Horror"
+      ],
+      "status": "Running",
+      "runtime": null,
+      "averageRuntime": 59,
+      "premiered": "2023-01-15",
+      "ended": null,
+      "officialSite": "https://www.hbo.com/the-last-of-us",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 8.3
+      },
+      "weight": 100,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 392256,
+        "imdb": "tt3581920"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/444/1110831.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/444/1110831.jpg"
+      },
+      "summary": "<p>After a global pandemic destroys civilization, a hardened survivor takes charge of a 14-year-old girl who may be humanity's last hope.</p>",
+      "updated": 1679664383,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/46562"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2446262"
+        }
+      },
+      "id": 2
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/54128/poker-face",
+      "name": "Poker Face",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Mystery"
+      ],
+      "status": "Running",
+      "runtime": null,
+      "averageRuntime": 56,
+      "premiered": "2023-01-26",
+      "ended": null,
+      "officialSite": "https://www.peacocktv.com/stream-tv/poker-face",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Thursday"
+        ]
+      },
+      "rating": {
+        "average": 7.2
+      },
+      "weight": 99,
+      "network": null,
+      "webChannel": {
+        "id": 347,
+        "name": "Peacock",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.peacocktv.com/"
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 398822,
+        "imdb": "tt14269590"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/442/1107203.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/442/1107203.jpg"
+      },
+      "summary": "<p><b>Poker Face</b> is a 10-episode \"mystery-of-the-week\" series following Natasha Lyonne's Charlie Cale, who has an extraordinary ability to determine when someone is lying. She hits the road with her Plymouth Barracuda and with every stop encounters a new cast of characters and strange crimes she can't help but solve.</p>",
+      "updated": 1679527475,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/54128"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2420613"
+        }
+      },
+      "id": 3
+    }
+  ],
+  "finished": [
+    {
+      "url": "https://www.tvmaze.com/shows/123/lost",
+      "name": "Lost",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Supernatural"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2004-09-22",
+      "ended": "2010-05-23",
+      "officialSite": "http://abc.go.com/shows/lost",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Tuesday"
+        ]
+      },
+      "rating": {
+        "average": 8.3
+      },
+      "weight": 98,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 4284,
+        "thetvdb": 73739,
+        "imdb": "tt0411008"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1389.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/1389.jpg"
+      },
+      "summary": "<p>Out of the blackness, the first thing Jack senses is pain. Then burning sun. A Bamboo forest. Smoke. Screams. With a rush comes the horrible awareness that the plane he was on tore apart in mid-air and crashed on a Pacific island. From there it's a blur, as his doctor's instinct kicks in: people need his help.</p><p>Stripped of everything, the 48 survivors scavenge what they can from the plane for their survival. Some panic. Some pin their hopes on rescue. A few find inner strength they never knew they had -- like Kate, who, with no medical training, suddenly finds herself suturing the doctor's wounds. Hurley - a man with a warm sense of humor despite the desperate situation - does his best to keep his cool as he helps those around him to survive. Charlie is a faded rock star who harbors a painful secret. Sayid is a Middle Eastern man who must wrestle with the racial profiling directed at him by some of his fellow survivors. Jin and Sun are a Korean couple whose traditions, values and language are foreign, and thus causes much to get lost in the translation. Sawyer has an air of danger surrounding him, and his intense sense of mistrust for everyone around him could prove to be fatal to his fellow castaways. Michael has just gained custody of his nine-year-old son, Walt, after the death of his ex-wife - they are a father and son who don't even know each other. Locke is a mysterious man who keeps to himself, and who harbors a deeper connection to the island than any of the others. Self-centered Shannon - who actually gives herself a pedicure amid the chaos - and her estranged controlling brother, Boone , constantly bicker and must learn to get along if they are to survive. And young Claire is eight months pregnant and ill-prepared for the hardships of motherhood - especially on a deserted island.</p>",
+      "updated": 1676773841,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/123"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/10260"
+        }
+      },
+      "id": 1
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/560/one-tree-hill",
+      "name": "One Tree Hill",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2003-09-23",
+      "ended": "2012-04-04",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 8.1
+      },
+      "weight": 81,
+      "network": {
+        "id": 5,
+        "name": "The CW",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.cwtv.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 4724,
+        "thetvdb": 72158,
+        "imdb": "tt0368530"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11665.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11665.jpg"
+      },
+      "summary": "<p><b>One Tree Hill</b> explores the delicate balance that contemporary young people face as they endeavor to build and define what their lives will be, while overcoming difficulties and embracing the good things that they sometimes take for granted. The series celebrates the most important things -- among them the quest for love, laughter, health, friends, career and family -- timeless pursuits that have always mattered, and matter still.</p>",
+      "updated": 1678339912,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/560"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/52232"
+        }
+      },
+      "id": 2
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/781/friday-night-lights",
+      "name": "Friday Night Lights",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Sports"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2006-10-03",
+      "ended": "2011-02-09",
+      "officialSite": "https://www.nbc.com/friday-night-lights",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 8.4
+      },
+      "weight": 98,
+      "network": {
+        "id": 1,
+        "name": "NBC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.nbc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 7990,
+        "thetvdb": 79337,
+        "imdb": "tt0758745"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15436.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15436.jpg"
+      },
+      "summary": "<p>In the town of Dillon, Texas, football is life, and no one knows that better than new head Coach Eric Taylor. Pressure mounts as the Dillon Panthers led by star quarterback Jason Street, enter pre-season surrounded by a swirl of press, recruiters and State Championship sized expectations. Backup quarterback Matt Saracen prepares to ride the bench in the shadow of Jason Street, as running back Tim Riggins struggles with a serious vice. As the season opener grows near, the town of Dillon is focused on what they believe to be most important, winning.</p>",
+      "updated": 1680096054,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/781"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/69151"
+        }
+      },
+      "id": 3
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/282/awkward",
+      "name": "Awkward.",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "2011-07-19",
+      "ended": "2016-05-24",
+      "officialSite": "http://www.mtv.com/shows/awkward",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Tuesday"
+        ]
+      },
+      "rating": {
+        "average": 6.7
+      },
+      "weight": 49,
+      "network": {
+        "id": 22,
+        "name": "MTV",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 28691,
+        "thetvdb": 249882,
+        "imdb": "tt1663676"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/1/4811.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/1/4811.jpg"
+      },
+      "summary": "<p>This series takes an irreverent look at the conflict, chaos and humor that defines teenage life through the eyes of 15-year-old Jenna Hamilton, whose life begins to change when a simple accident becomes an epic misunderstanding and is blown way out of proportion.</p><p>Narrated in the first-person voice of Jenna's blog posts, <b>Awkward</b> captures the humor within the struggles and experiences everyone can relate to from their formative years. The series picks up in the aftermath of the accident as she must deal with a new not-so-fun stigma, while at the same time managing the other daily drama that comes with being a teenager. From a secret relationship with a popular guy, to being undermined by a mean girl, and parents who just don't get it - Jenna's misfortune will eventually serve as the catalyst for amazing change, but it's not without some missteps and mishaps along the way.</p>",
+      "updated": 1605542931,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/282"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/770179"
+        }
+      },
+      "id": 4
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/526/the-office",
+      "name": "The Office",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "2005-03-24",
+      "ended": "2013-05-16",
+      "officialSite": "http://www.nbc.com/the-office",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Thursday"
+        ]
+      },
+      "rating": {
+        "average": 8.4
+      },
+      "weight": 98,
+      "network": {
+        "id": 1,
+        "name": "NBC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.nbc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 6061,
+        "thetvdb": 73244,
+        "imdb": "tt0386676"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/271/678637.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/678637.jpg"
+      },
+      "summary": "<p>Steve Carell stars in <b>The Office</b>, a fresh and funny mockumentary-style glimpse into the daily interactions of the eccentric workers at the Dunder Mifflin paper supply company. Based on the smash-hit British series of the same name and adapted for American Television by Greg Daniels, this fast-paced comedy parodies contemporary American water-cooler culture. Earnest but clueless regional manager Michael Scott believes himself to be an exceptional boss and mentor, but actually receives more eye-rolls than respect from his oddball staff.</p>",
+      "updated": 1677413462,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/526"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/711203"
+        }
+      },
+      "id": 5
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/174/parks-and-recreation",
+      "name": "Parks and Recreation",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "2009-04-09",
+      "ended": "2015-02-24",
+      "officialSite": "http://www.nbc.com/parks-and-recreation",
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Tuesday"
+        ]
+      },
+      "rating": {
+        "average": 8.3
+      },
+      "weight": 94,
+      "network": {
+        "id": 1,
+        "name": "NBC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.nbc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 21686,
+        "thetvdb": 84912,
+        "imdb": "tt1266020"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/2439.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/2439.jpg"
+      },
+      "summary": "<p><b>Parks and Recreation</b> is a comedy series based around the main character Leslie Knope (a bureaucrat) in the parks department of Pawnee.</p>",
+      "updated": 1679551879,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/174"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/57787"
+        }
+      },
+      "id": 6
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/788/greek",
+      "name": "GREEK",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2007-07-09",
+      "ended": "2011-03-07",
+      "officialSite": "http://freeform.go.com/shows/greek",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Monday"
+        ]
+      },
+      "rating": {
+        "average": 7.8
+      },
+      "weight": 87,
+      "network": {
+        "id": 26,
+        "name": "Freeform",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.freeform.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 16432,
+        "thetvdb": 80301,
+        "imdb": "tt0976014"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15483.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15483.jpg"
+      },
+      "summary": "<p>Rusty begins his freshman year at Cyprus-Rhodes University determined to change his life and rush a fraternity. However, his sister Casey, who is already ensconced as a sorority siren, is not too keen on having her younger brother invade her world.</p>",
+      "updated": 1650435214,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/788"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/69869"
+        }
+      },
+      "id": 7
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/82/game-of-thrones",
+      "name": "Game of Thrones",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Adventure",
+        "Fantasy"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 61,
+      "premiered": "2011-04-17",
+      "ended": "2019-05-19",
+      "officialSite": "http://www.hbo.com/game-of-thrones",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 9
+      },
+      "weight": 99,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 24493,
+        "thetvdb": 121361,
+        "imdb": "tt0944947"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/190/476117.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/190/476117.jpg"
+      },
+      "summary": "<p>Based on the bestselling book series <i>A Song of Ice and Fire</i> by George R.R. Martin, this sprawling new HBO drama is set in a world where summers span decades and winters can last a lifetime. From the scheming south and the savage eastern lands, to the frozen north and ancient Wall that protects the realm from the mysterious darkness beyond, the powerful families of the Seven Kingdoms are locked in a battle for the Iron Throne. This is a story of duplicity and treachery, nobility and honor, conquest and triumph. In the <b>Game of Thrones</b>, you either win or you die.</p>",
+      "updated": 1658720459,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/82"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1623968"
+        }
+      },
+      "id": 8
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/845/dawsons-creek",
+      "name": "Dawson's Creek",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "1998-01-20",
+      "ended": "2003-05-14",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 7.2
+      },
+      "weight": 93,
+      "network": {
+        "id": 71,
+        "name": "The WB",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": null
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 3255,
+        "thetvdb": 72584,
+        "imdb": "tt0118300"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/81/204413.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/81/204413.jpg"
+      },
+      "summary": "<p>Dawson Leery, Joey Potter, and Pacey Witter are life long friends, whose lives start to rapidly change when a new girl, Jen Lindley, moves in next door to Dawson and the foursome start high school. Chronicling the passage from adolescence to young adulthood, they are joined by two other newcomers to Capeside: brother and sister Jack and Andie McPhee and, when they go to college, by Audrey Liddell. Set in the fictional town of Capeside, MA., <b>Dawson's Creek</b> is the coming of age story of a close knit group of friends on the verge of adulthood.</p>",
+      "updated": 1675044058,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/845"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/78752"
+        }
+      },
+      "id": 9
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/776/the-oc",
+      "name": "The O.C.",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Romance"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2003-08-05",
+      "ended": "2007-02-22",
+      "officialSite": null,
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Thursday"
+        ]
+      },
+      "rating": {
+        "average": 7.5
+      },
+      "weight": 92,
+      "network": {
+        "id": 4,
+        "name": "FOX",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.fox.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 6054,
+        "thetvdb": 72164,
+        "imdb": "tt0362359"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15394.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15394.jpg"
+      },
+      "summary": "<p>A slick hit about a troubled L.A. teen taken in by an idealistic lawyer and his family in affluent Orange County. The series filled the youth-soap hole left by the departed '90210,' but quickly proved itself far more gritty---and witty. In addition, early plots set up an appealing balance between the kids and grown-ups, who were portrayed as real people with real problems, instead of sounding boards for the unblemished Romeos and Juliets.</p>",
+      "updated": 1679854476,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/776"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/68671"
+        }
+      },
+      "id": 10
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/683/boy-meets-world",
+      "name": "Boy Meets World",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Family"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1993-09-24",
+      "ended": "2000-05-05",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:30",
+        "days": [
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": 7.9
+      },
+      "weight": 94,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 2887,
+        "thetvdb": 71889,
+        "imdb": "tt0105958"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/400/1000796.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/400/1000796.jpg"
+      },
+      "summary": "<p>Cory is your average guy. He has a best friend from the other side of the tracks, a teacher that constantly keeps him on his toes, and a friend named Topanga whom he has trouble understanding. With the support of his parents and his brother Eric, Cory learns to cope with the roller coaster called growing up.</p>",
+      "updated": 1667762404,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/683"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/60207"
+        }
+      },
+      "id": 11
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/305/black-mirror",
+      "name": "Black Mirror",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Science-Fiction",
+        "Thriller"
+      ],
+      "status": "Running",
+      "runtime": null,
+      "averageRuntime": 63,
+      "premiered": "2011-12-04",
+      "ended": null,
+      "officialSite": "https://www.netflix.com/title/70264888",
+      "schedule": {
+        "time": "",
+        "days": []
+      },
+      "rating": {
+        "average": 8.6
+      },
+      "weight": 99,
+      "network": null,
+      "webChannel": {
+        "id": 1,
+        "name": "Netflix",
+        "country": null,
+        "officialSite": "https://www.netflix.com/"
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 30348,
+        "thetvdb": 253463,
+        "imdb": "tt2085059"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/240/601964.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/240/601964.jpg"
+      },
+      "summary": "<p>Over the last ten years, technology has transformed almost every aspect of our lives before we've had time to stop and question it. In every home; on every desk; in every palm - a plasma screen; a monitor; a smartphone--a black mirror of our 21st Century existence. <b>Black Mirror</b> is a contemporary British re-working of <i>The Twilight Zone</i> with stories that tap into the collective unease about our modern world.</p>",
+      "updated": 1678869150,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/305"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1659382"
+        }
+      },
+      "id": 12
+    }
+  ]
+}

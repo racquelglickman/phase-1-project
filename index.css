@@ -1,0 +1,57 @@
+#override-body {
+    padding: 20px;
+    text-align: center;
+    background-color: #FFD4CA;
+    font-family: 'GT Super Ds Trial', sans-serif;
+    font-family: 'GT Super Txt Trial', sans-serif;
+    color: #0A2925;
+}
+
+main {
+    display: flex;
+}
+
+nav {
+    margin: 15px;
+}
+
+form {
+    margin: 15px;
+}
+
+h3 {
+    padding: 30px;
+}
+
+#displayed-shows {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 10px;
+}
+
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #AAC0AF;
+    padding: 40px;
+    font-size: 25px;
+}
+
+#movie-list {
+    display:flex;
+    justify-content: center;
+}
+
+#movie-list img {
+    width: 100px;
+    height: auto;
+    margin: 7px;
+}
+
+
+
