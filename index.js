@@ -48,11 +48,7 @@ categories[0].element.style.textShadow = '1px 1px 2px';
 fetchData(categories[0].option);
 
 // add event listeners to each nav bar choice
-navOptions.forEach((navChoice, index) => {
-
-    console.log(navChoice, index)
-    let h3 = document.createElement('h3');
-    navChoice.textContent = categories[index].displayName;
+navOptions.forEach((navChoice) => {
 
     navChoice.addEventListener('click', () => {
         console.log(`${navChoice.textContent} was clicked`);
