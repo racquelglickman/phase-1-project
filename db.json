@@ -417,6 +417,122 @@
         }
       },
       "id": 3
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/179/the-wire",
+      "name": "The Wire",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2002-06-02",
+      "ended": "2008-03-09",
+      "officialSite": "http://www.hbo.com/the-wire",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 8.9
+      },
+      "weight": 98,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 6296,
+        "thetvdb": 79126,
+        "imdb": "tt0306414"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/1/2527.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/1/2527.jpg"
+      },
+      "summary": "<p>The first season of <b>The Wire</b> (2002) concentrated on the often-futile efforts of police to infiltrate a West Baltimore drug ring headed by Avon Barksdale and his lieutenant, Stringer Bell. In Seasons Two and Three, as the Barksdale investigation escalated, new storylines involving pressures on the working class and the city's political leadership were introduced. Season Four focused on the stories of several young boys in the public school system, struggling with problems at home and the lure of the corner - set against the rise of a new drug empire in West Baltimore and a new Mayor in City Hall. The fifth and final season of <i>The Wire</i> centers on the media's role in addressing - or failing to address - the fundamental political, economic and social realities depicted over the course of the series, while also resolving storylines of the numerous characters woven throughout the narrative arc of the show.</p>",
+      "updated": 1674939315,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/179"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/12969"
+        }
+      },
+      "id": 4
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/527/the-sopranos",
+      "name": "The Sopranos",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "1999-01-10",
+      "ended": "2007-06-10",
+      "officialSite": "http://www.hbo.com/the-sopranos",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 8.9
+      },
+      "weight": 98,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 6206,
+        "thetvdb": 75299,
+        "imdb": "tt0141842"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11341.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11341.jpg"
+      },
+      "summary": "<p><b>The Sopranos</b>, writer-producer-director David Chase's extraordinary television series, is nominally an urban gangster drama, but its true impact strikes closer to home: Like 1999's other screen touchstone, American Beauty, the HBO series chronicles a dysfunctional, suburban American family in bold relief. And for protagonist Tony Soprano, there's the added complexity posed by heading twin families, his collegial mob clan and his own, nouveau riche brood.</p>",
+      "updated": 1661802564,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/527"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/47925"
+        }
+      },
+      "id": 5
     }
   ],
   "finished": [
@@ -1112,6 +1228,65 @@
         }
       },
       "id": 12
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/24267/charmed",
+      "name": "Charmed",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Mystery",
+        "Supernatural"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2018-10-14",
+      "ended": "2022-06-10",
+      "officialSite": "http://www.cwtv.com/shows/charmed/",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": 5.6
+      },
+      "weight": 96,
+      "network": {
+        "id": 5,
+        "name": "The CW",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.cwtv.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 349317,
+        "imdb": "tt6394324"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/401/1003373.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/401/1003373.jpg"
+      },
+      "summary": "<p>Mel and Maggie Vera suffer a shock when their mother dies suddenly, but before they have time to heal from their loss, another surprise shows up on their doorstep in the shape of an older sister -- brilliant geneticist Macy -- whom their mother never told them existed. The emotional stress takes its toll and the girls begin to exhibit impossible new abilities. An explanation comes from an unexpected place: the new chair of the women's studies department. Harry Greenwood reveals that the three are powerful witches, and he is their whitelighter, there to advise and guide them as they battle dark forces.</p>",
+      "updated": 1674931223,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/24267"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2317865"
+        }
+      },
+      "id": 13
     }
   ]
 }

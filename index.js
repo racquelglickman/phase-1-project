@@ -44,7 +44,7 @@ let clickedCategory = 'currently';
 categories[0].element.style.textShadow = '1px 1px 2px';
 fetchData(categories[0].option);
 
-// add event listeners to each nav bar choice
+// add 'click' and 'mouseover' event listeners to each nav bar choice
 navOptions.forEach((navChoice) => {
     
     // selected nav category (full name) -> name of correct array in db.json (one word)
@@ -67,10 +67,10 @@ navOptions.forEach((navChoice) => {
 
     // when you mouseover any h3, text becomes shadowed
     // when you mouseout, text changes back unless it's the clicked category
-    navChoice.addEventListener('mouseover', () => {
+    navChoice.addEventListener('mouseenter', () => {
         navChoice.style.textShadow = '1px 1px 2px';
 
-        navChoice.addEventListener('mouseout', () => {
+        navChoice.addEventListener('mouseleave', () => {
             if (clickedCategory !== navCategory) {
                 navChoice.style.textShadow = '';
             };
@@ -99,10 +99,19 @@ function renderShows(shows) {
         img.src = showObj.image.original;
         img.height = '300';
 
+        img.addEventListener('mouseenter', () => {
+            console.log(showObj.name)
+            img.style.filter = "blur(5px)"
+
+            img.addEventListener('mouseleave', () => {
+                img.style.filter = '';
+            })
+        });
+
         displayedShows.append(img);
+
     });
 };
-
 
 // on form submit, reads input and category and creates the url to grab the show object 
 showSearch.addEventListener('submit', (e) => {
@@ -125,7 +134,7 @@ showSearch.addEventListener('submit', (e) => {
         });
 });
 
-// posts new show in correct array in db.json and re-render 
+// posts new show in correct array in db.json and re-fetches data for that category (if it's clicked category then it re-renders with new show added)
 function postNewShow(showObj, selectCategoryName) {
 
     console.log(showObj)
