@@ -28,8 +28,15 @@ h3 {
     flex-wrap: wrap;
 }
 
-img {
+.show-image-div {
     margin: 10px;
+    position: relative;
+}
+
+.show-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
 
 

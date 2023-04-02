@@ -95,20 +95,30 @@ function renderShows(shows) {
     
     shows.forEach((showObj) => {
 
+        let div = document.createElement('div');
+        div.className = 'show-image-div'
+
         let img = document.createElement('img');
         img.src = showObj.image.original;
         img.height = '300';
 
+        displayedShows.append(div);
+        div.append(img)
+
         img.addEventListener('mouseenter', () => {
             console.log(showObj.name)
-            img.style.filter = "blur(5px)"
+            img.style.filter = "blur(10px)"
+
+            let textOverlay = document.createElement('div');
+            textOverlay.textContent = 'testing';
+            textOverlay.className = 'show-text'
+            div.append(textOverlay);
 
             img.addEventListener('mouseleave', () => {
                 img.style.filter = '';
+                textOverlay.remove();
             })
         });
-
-        displayedShows.append(img);
 
     });
 };
