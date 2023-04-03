@@ -11,32 +11,28 @@ let categories = [
         option: 'currently',
         displayName: 'Currently Watching',
         element: navOptions[0],
-        dropDown: true,
     },
     {
         option: 'future',
         displayName: 'Future Watching',
         element: navOptions[1],
-        dropDown: true,
     },
     {
         option: 'finished',
         displayName: 'Finished Watching',
         element: navOptions[2],
-        dropDown: true,
     },
     {
         option: 'allShows',
         displayName: 'All Shows',
         element: navOptions[3],
-        dropDown: false,
     },
 ];
 
 // when the page loads, default load the shows from currently into displayed-shows
 let clickedCategory = 'currently';
 categories[0].element.style.textShadow = '1px 1px 2px';
-fetchData(categories[0].option);
+// fetchData(categories[0].option);
 
 // add 'click' and 'mouseover' event listeners to each nav bar choice
 navOptions.forEach((navChoice) => {
@@ -75,6 +71,8 @@ navOptions.forEach((navChoice) => {
 
 // fetch data for specific category before rendering
 function fetchData(category){
+
+    // 🚨 determine way to access endpoints
 
     fetch(`http://localhost:3000/${category}`)
         .then((response) => response.json())
@@ -162,7 +160,7 @@ function renderOverlay(showObj, overlayDiv) {
             console.log(changeSelection);
         }
 
-        // patch request to change db.json location
+        // 🚨 patch request to change db.json location
 
     }, {once: true});
 
@@ -185,15 +183,32 @@ showSearch.addEventListener('submit', (e) => {
         .then((response) => response.json())
         .then((data) => {
             delete data.id;
-            postNewShow(data, selectCategoryName);
+            console.log(data);
+
+            // adds category to object itself
+            if (selectCategoryName === categories[0].option) { //current
+                data.inCurrently = true;
+                data.inFuture = false;
+            } else if (selectCategoryName === categories[1].option) { //future
+                data.inCurrently = false;
+                data.inFuture = true;
+            } else { // finished
+                data.inCurrently = false;
+                data.inFuture = false;
+            } 
+
+            console.log(data);
+            
+            postNewShow(data);
         });
 });
 
-// posts new show in correct array in db.json and re-fetches data for that category (if it's clicked category then it re-renders with new show added)
-function postNewShow(showObj, selectCategoryName) {
+// posts new array in db.json with category information and refetches data for clicked category
+function postNewShow(showObj) {
 
-    console.log(showObj)
-    fetch(`http://localhost:3000/${selectCategoryName}`, {
+    console.log(showObj);
+
+    fetch(`http://localhost:3000/shows`, {
         method: "POST",
         headers: {
             "content-type": "application/json"
@@ -202,7 +217,7 @@ function postNewShow(showObj, selectCategoryName) {
     })
         .then((response) => response.json())
         .then((data) => {
-            fetchData(clickedCategory);
+            // fetchData(clickedCategory);
         });
 };
 
