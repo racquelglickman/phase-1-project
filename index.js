@@ -138,7 +138,6 @@ function renderOverlay(showObj, overlayDiv) {
 
         // create form with selection to change category
         let changeForm = document.createElement('form');
-        changeForm.onchange = "this.form.submit()"
         overlayDiv.append(changeForm);
 
         let changeSelect = document.createElement('select');
@@ -146,24 +145,22 @@ function renderOverlay(showObj, overlayDiv) {
 
         let hiddenOption = document.createElement('option');
         hiddenOption.textContent = 'Select Category';
-        hiddenOption.hidden; // THIS NEEDS TO BE TESTED WHETHER I CAN APPLY THE HIDDEN OPTION LIKE THIS
+        hiddenOption.hidden = 'hidden'; 
         changeSelect.append(hiddenOption);
 
-        categories.slice(0,-1).forEach((category => {
+        categories.slice(0,-1).forEach((category) => {
             let option = document.createElement('option');
             option.textContent = category.displayName;
             option.id = category.option;
 
             changeSelect.append(option);
-            
-        }));
+        });
 
-        changeForm.addEventListener('submit', () => {
-            console.log('selected new category')
-        })
-
-        // add an event listener for submit?
-        // read in the selection from the event
+        changeSelect.onchange = () => {
+            console.log('result registered');
+            let changeSelection = changeSelect.options[changeSelect.selectedIndex];
+            console.log(changeSelection);
+        }
 
         // patch request to change db.json location
 
