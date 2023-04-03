@@ -1,10 +1,3 @@
-// 🚨 
-// 4. Click button to change show category
-// 5. When adding a new show, option to reject the first show found in the API
-// 6. Mouseover a show and see what season/episode you're up to 
-// 7. Option to display additional show details
-
-// next step 🚨 - build an h3 element and selection option for each of the objects in 'categories' instead of hard-coding the elements
 
 let navOptions = document.querySelectorAll('nav h3');
 
@@ -106,6 +99,7 @@ function renderShows(shows) {
         displayedShows.append(showDiv);
         showDiv.append(img);
 
+        // mouseover to see change button and season/episode info
         showDiv.addEventListener('mouseenter', () => {
             console.log(showObj.name);
             img.style.filter = "blur(10px)";
@@ -125,7 +119,6 @@ function renderShows(shows) {
     });
 };
 
-// mouseover show to see details and changeButton
 function renderOverlay(showObj, overlayDiv) {
 
     let textOverlay = document.createElement('div');
@@ -140,8 +133,41 @@ function renderOverlay(showObj, overlayDiv) {
     overlayDiv.append(changeButton);
 
     changeButton.addEventListener('click', () => {
-        console.log('button clicked')
-    })
+        console.log('button clicked');
+        console.log(clickedCategory)
+
+        // create form with selection to change category
+        let changeForm = document.createElement('form');
+        changeForm.onchange = "this.form.submit()"
+        overlayDiv.append(changeForm);
+
+        let changeSelect = document.createElement('select');
+        changeForm.append(changeSelect);
+
+        let hiddenOption = document.createElement('option');
+        hiddenOption.textContent = 'Select Category';
+        hiddenOption.hidden; // THIS NEEDS TO BE TESTED WHETHER I CAN APPLY THE HIDDEN OPTION LIKE THIS
+        changeSelect.append(hiddenOption);
+
+        categories.slice(0,-1).forEach((category => {
+            let option = document.createElement('option');
+            option.textContent = category.displayName;
+            option.id = category.option;
+
+            changeSelect.append(option);
+            
+        }));
+
+        changeForm.addEventListener('submit', () => {
+            console.log('selected new category')
+        })
+
+        // add an event listener for submit?
+        // read in the selection from the event
+
+        // patch request to change db.json location
+
+    }, {once: true});
 
 };
 
