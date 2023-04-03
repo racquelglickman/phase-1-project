@@ -23,7 +23,7 @@ let categories = [
         element: navOptions[2],
     },
     {
-        option: 'allShows',
+        option: '',
         displayName: 'All Shows',
         element: navOptions[3],
     },
@@ -35,10 +35,10 @@ categories[0].element.style.textShadow = '1px 1px 2px';
 fetchData(categories[0].option);
 
 // add 'click' and 'mouseover' event listeners to each nav bar choice
-navOptions.forEach((navChoice) => {
+navOptions.forEach((navChoice, index) => {
     
-    // selected nav category (full name) -> name of correct array in db.json (one word)
-    let navCategory = (navChoice.textContent.split(' ')[0]).toLowerCase();
+    // selected nav category (full name) -> name of correct category in db.json (one word)
+    let navCategory = categories[index].option;
 
     // when you click an h3, add shadow and fetch data
     navChoice.addEventListener('click', () => {
@@ -72,12 +72,14 @@ navOptions.forEach((navChoice) => {
 // fetch data for specific category before rendering
 function fetchData(category){
 
-    // 🚨 determine way to access endpoints
-
     fetch(`http://localhost:3000/shows/${category}`)
         .then((response) => response.json())
         .then((data) => {
             displayedShows.innerHTML ='';
+
+            // sort shows alphabetically before rendering
+            data.sort((a, b) => (a.name > b.name) ? 1 : -1)
+
             renderShows(data);
         });
 };
@@ -85,7 +87,7 @@ function fetchData(category){
 // renders shows and puts them in displayedShows div
 function renderShows(shows) {
     
-    shows.forEach((showObj) => {
+    shows.forEach((showObj) => {        
 
         let showDiv = document.createElement('div');
         showDiv.className = 'show-image-div'
@@ -99,7 +101,6 @@ function renderShows(shows) {
 
         // mouseover to see change button and season/episode info
         showDiv.addEventListener('mouseenter', () => {
-            console.log(showObj.name);
             img.style.filter = "blur(10px)";
 
             let overlayDiv = document.createElement('div');

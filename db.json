@@ -362,6 +362,69 @@
       },
       "category": "future",
       "id": 6
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
+      "name": "Law & Order: Special Victims Unit",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Crime",
+        "Legal"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "1999-09-20",
+      "ended": null,
+      "officialSite": "http://www.nbc.com/law-and-order-special-victims-unit",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Thursday"
+        ]
+      },
+      "rating": {
+        "average": 7.9
+      },
+      "weight": 100,
+      "network": {
+        "id": 1,
+        "name": "NBC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.nbc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 4204,
+        "thetvdb": 75692,
+        "imdb": "tt0203259"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/426/1065684.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/426/1065684.jpg"
+      },
+      "summary": "<p>In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.</p>",
+      "updated": 1680477799,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/103"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2500270"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2500271"
+        }
+      },
+      "category": "currently",
+      "id": 7
     }
   ]
 }
