@@ -52,6 +52,16 @@ h3 {
     margin: 10px;
 }
 
+.change-form {
+    position: relative;
+    display: flex;
+    align-content: center;
+}
+
+.change-select {
+    position: absolute;
+}
+
 
 
 div.sticky {

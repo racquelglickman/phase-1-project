@@ -1,3 +1,4 @@
 {
-    "/shows/:category": "/shows?category=:category"
+    "/shows/:category": "/shows?category=:category",
+    "/shows/:id": "shows/:id"
 }

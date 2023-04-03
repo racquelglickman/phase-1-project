@@ -425,6 +425,183 @@
       },
       "category": "currently",
       "id": 7
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/560/one-tree-hill",
+      "name": "One Tree Hill",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2003-09-23",
+      "ended": "2012-04-04",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 8.1
+      },
+      "weight": 81,
+      "network": {
+        "id": 5,
+        "name": "The CW",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.cwtv.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 4724,
+        "thetvdb": 72158,
+        "imdb": "tt0368530"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11665.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11665.jpg"
+      },
+      "summary": "<p><b>One Tree Hill</b> explores the delicate balance that contemporary young people face as they endeavor to build and define what their lives will be, while overcoming difficulties and embracing the good things that they sometimes take for granted. The series celebrates the most important things -- among them the quest for love, laughter, health, friends, career and family -- timeless pursuits that have always mattered, and matter still.</p>",
+      "updated": 1678339912,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/560"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/52232"
+        }
+      },
+      "category": "finished",
+      "id": 8
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/51394/the-white-lotus",
+      "name": "The White Lotus",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 62,
+      "premiered": "2021-07-11",
+      "ended": null,
+      "officialSite": "https://www.hbo.com/the-white-lotus",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 6.7
+      },
+      "weight": 99,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 390430,
+        "imdb": "tt13406094"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/434/1085967.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/434/1085967.jpg"
+      },
+      "summary": "<p>A social satire set at an exclusive tropical resort, <b>The White Lotus</b> follows the exploits of various guests and employees over the span of a week.</p>",
+      "updated": 1674891263,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/51394"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2423328"
+        }
+      },
+      "category": "currently",
+      "id": 9
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/683/boy-meets-world",
+      "name": "Boy Meets World",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy",
+        "Family"
+      ],
+      "status": "Ended",
+      "runtime": 30,
+      "averageRuntime": 30,
+      "premiered": "1993-09-24",
+      "ended": "2000-05-05",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:30",
+        "days": [
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": 7.9
+      },
+      "weight": 94,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 2887,
+        "thetvdb": 71889,
+        "imdb": "tt0105958"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/400/1000796.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/400/1000796.jpg"
+      },
+      "summary": "<p>Cory is your average guy. He has a best friend from the other side of the tracks, a teacher that constantly keeps him on his toes, and a friend named Topanga whom he has trouble understanding. With the support of his parents and his brother Eric, Cory learns to cope with the roller coaster called growing up.</p>",
+      "updated": 1667762404,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/683"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/60207"
+        }
+      },
+      "category": "finished",
+      "id": 10
     }
   ]
 }

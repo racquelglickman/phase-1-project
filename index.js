@@ -1,4 +1,3 @@
-
 let navOptions = document.querySelectorAll('nav h3');
 
 let showSearch = document.querySelector('#show-search');
@@ -30,9 +29,9 @@ let categories = [
 ];
 
 // when the page loads, default load the shows from currently into displayed-shows
-let clickedCategory = 'currently';
+let clickedCategory = categories[0].option;
 categories[0].element.style.textShadow = '1px 1px 2px';
-fetchData(categories[0].option);
+fetchData(clickedCategory);
 
 // add 'click' and 'mouseover' event listeners to each nav bar choice
 navOptions.forEach((navChoice, index) => {
@@ -137,9 +136,11 @@ function renderOverlay(showObj, overlayDiv) {
 
         // create form with selection to change category
         let changeForm = document.createElement('form');
+        changeForm.className = 'change-form';
         overlayDiv.append(changeForm);
 
         let changeSelect = document.createElement('select');
+        changeSelect.className = 'change-select';
         changeForm.append(changeSelect);
 
         let hiddenOption = document.createElement('option');
@@ -147,6 +148,7 @@ function renderOverlay(showObj, overlayDiv) {
         hiddenOption.hidden = 'hidden'; 
         changeSelect.append(hiddenOption);
 
+        // excluding 'all shows' from option creation
         categories.slice(0,-1).forEach((category) => {
             let option = document.createElement('option');
             option.textContent = category.displayName;
@@ -156,12 +158,30 @@ function renderOverlay(showObj, overlayDiv) {
         });
 
         changeSelect.onchange = () => {
-            console.log('result registered');
             let changeSelection = changeSelect.options[changeSelect.selectedIndex];
-            console.log(changeSelection);
+
+            let updateShowObj = {
+                category: changeSelection.id
+            };
+
+            // patch request to change db.json location
+            // console.log(showObj.name, showObj.id);
+            // console.log(`http://localhost:3000/shows/${clickedCategory}/${showObj.id}`)
+            fetch(`http://localhost:3000/shows/${showObj.id}`, {
+                method: "PATCH",
+                headers: {
+                    "content-type": "application/json"
+                },
+                body: JSON.stringify(updateShowObj)
+            })
+            .then((response) => response.json())
+            .then((data) => {
+                console.log(data);
+            });
+
         }
 
-        // 🚨 patch request to change db.json location
+
 
     }, {once: true});
 
