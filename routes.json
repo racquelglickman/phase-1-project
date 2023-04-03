@@ -1,0 +1,3 @@
+{
+    "/shows/:category": "/shows?category=:category"
+}

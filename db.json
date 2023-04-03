@@ -59,9 +59,70 @@
           "href": "https://api.tvmaze.com/episodes/2479924"
         }
       },
-      "inCurrently": true,
-      "inFuture": false,
+      "category": "currently",
       "id": 1
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/36672/yellowjackets",
+      "name": "Yellowjackets",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Horror"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2021-11-14",
+      "ended": null,
+      "officialSite": "https://sho.com/yellowjackets",
+      "schedule": {
+        "time": "22:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 7
+      },
+      "weight": 100,
+      "network": {
+        "id": 9,
+        "name": "Showtime",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.sho.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 399731,
+        "imdb": "tt11041332"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/449/1124396.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/449/1124396.jpg"
+      },
+      "summary": "<p><b>Yellowjackets</b> follows a girls' high school soccer team. In 1975, the Dearborn High Yellowjackets became the first team in state history to qualify for the Girls' U.S. Soccer Championship Series in Manchester, NH. They never got the chance to compete. Equal parts survival epic, horror story and pitch black coming of age, <i>Yellowjackets</i> tells the story of the (un)lucky survivors of a plane crash deep in the Ontario wilderness, chronicling their descent from a friendly, cooperative team to warring, cannibalistic clans. At the same time, it follows the lives they've attempted to piece back together nearly twenty-five years later, proving that the past is never really past and what began out in the wilderness is far from over.</p>",
+      "updated": 1680445025,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/36672"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2494918"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2498831"
+        }
+      },
+      "category": "currently",
+      "id": 2
     },
     {
       "url": "https://www.tvmaze.com/shows/179/the-wire",
@@ -119,9 +180,8 @@
           "href": "https://api.tvmaze.com/episodes/12969"
         }
       },
-      "inCurrently": false,
-      "inFuture": true,
-      "id": 2
+      "category": "future",
+      "id": 3
     },
     {
       "url": "https://www.tvmaze.com/shows/123/lost",
@@ -180,9 +240,128 @@
           "href": "https://api.tvmaze.com/episodes/10260"
         }
       },
-      "inCurrently": false,
-      "inFuture": false,
-      "id": 3
+      "category": "finished",
+      "id": 4
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/55350/abbott-elementary",
+      "name": "Abbott Elementary",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Comedy"
+      ],
+      "status": "Running",
+      "runtime": 30,
+      "averageRuntime": 31,
+      "premiered": "2021-12-07",
+      "ended": null,
+      "officialSite": "https://abc.com/shows/abbott-elementary",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 5.7
+      },
+      "weight": 99,
+      "network": {
+        "id": 3,
+        "name": "ABC",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://abc.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 402910,
+        "imdb": "tt14218830"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/421/1052621.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/421/1052621.jpg"
+      },
+      "summary": "<p>In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don't love the school district's less-than-stellar attitude toward educating children.</p>",
+      "updated": 1680400665,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/55350"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2492741"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2506931"
+        }
+      },
+      "category": "currently",
+      "id": 5
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/527/the-sopranos",
+      "name": "The Sopranos",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Crime"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "1999-01-10",
+      "ended": "2007-06-10",
+      "officialSite": "http://www.hbo.com/the-sopranos",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 8.9
+      },
+      "weight": 97,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 6206,
+        "thetvdb": 75299,
+        "imdb": "tt0141842"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11341.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11341.jpg"
+      },
+      "summary": "<p><b>The Sopranos</b>, writer-producer-director David Chase's extraordinary television series, is nominally an urban gangster drama, but its true impact strikes closer to home: Like 1999's other screen touchstone, American Beauty, the HBO series chronicles a dysfunctional, suburban American family in bold relief. And for protagonist Tony Soprano, there's the added complexity posed by heading twin families, his collegial mob clan and his own, nouveau riche brood.</p>",
+      "updated": 1661802564,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/527"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/47925"
+        }
+      },
+      "category": "future",
+      "id": 6
     }
   ]
 }

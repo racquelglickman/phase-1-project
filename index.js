@@ -32,7 +32,7 @@ let categories = [
 // when the page loads, default load the shows from currently into displayed-shows
 let clickedCategory = 'currently';
 categories[0].element.style.textShadow = '1px 1px 2px';
-// fetchData(categories[0].option);
+fetchData(categories[0].option);
 
 // add 'click' and 'mouseover' event listeners to each nav bar choice
 navOptions.forEach((navChoice) => {
@@ -74,7 +74,7 @@ function fetchData(category){
 
     // 🚨 determine way to access endpoints
 
-    fetch(`http://localhost:3000/${category}`)
+    fetch(`http://localhost:3000/shows/${category}`)
         .then((response) => response.json())
         .then((data) => {
             displayedShows.innerHTML ='';
@@ -183,21 +183,9 @@ showSearch.addEventListener('submit', (e) => {
         .then((response) => response.json())
         .then((data) => {
             delete data.id;
-            console.log(data);
 
             // adds category to object itself
-            if (selectCategoryName === categories[0].option) { //current
-                data.inCurrently = true;
-                data.inFuture = false;
-            } else if (selectCategoryName === categories[1].option) { //future
-                data.inCurrently = false;
-                data.inFuture = true;
-            } else { // finished
-                data.inCurrently = false;
-                data.inFuture = false;
-            } 
-
-            console.log(data);
+            data.category = selectCategoryName;
             
             postNewShow(data);
         });
@@ -217,7 +205,7 @@ function postNewShow(showObj) {
     })
         .then((response) => response.json())
         .then((data) => {
-            // fetchData(clickedCategory);
+            fetchData(clickedCategory);
         });
 };
 
