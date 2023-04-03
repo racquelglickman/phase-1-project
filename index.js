@@ -1,11 +1,12 @@
+// 🚨 
+// 4. Click button to change show category
+// 5. When adding a new show, option to reject the first show found in the API
+// 6. Mouseover a show and see what season/episode you're up to 
+// 7. Option to display additional show details
+
 // next step 🚨 - build an h3 element and selection option for each of the objects in 'categories' instead of hard-coding the elements
-// need to add 🚨 option to reject the show and go to the next approximation
-// mouseover to make the textshadow
-// button to add a show to new category
-// mouseover show to see title - what season and episode?
 
 let navOptions = document.querySelectorAll('nav h3');
-
 
 let showSearch = document.querySelector('#show-search');
 let inputShowSearch = document.querySelector('input-show-search');
@@ -67,10 +68,10 @@ navOptions.forEach((navChoice) => {
 
     // when you mouseover any h3, text becomes shadowed
     // when you mouseout, text changes back unless it's the clicked category
-    navChoice.addEventListener('mouseenter', () => {
+    navChoice.addEventListener('mouseover', () => {
         navChoice.style.textShadow = '1px 1px 2px';
 
-        navChoice.addEventListener('mouseleave', () => {
+        navChoice.addEventListener('mouseout', () => {
             if (clickedCategory !== navCategory) {
                 navChoice.style.textShadow = '';
             };
@@ -95,32 +96,53 @@ function renderShows(shows) {
     
     shows.forEach((showObj) => {
 
-        let div = document.createElement('div');
-        div.className = 'show-image-div'
+        let showDiv = document.createElement('div');
+        showDiv.className = 'show-image-div'
 
         let img = document.createElement('img');
         img.src = showObj.image.original;
         img.height = '300';
 
-        displayedShows.append(div);
-        div.append(img)
+        displayedShows.append(showDiv);
+        showDiv.append(img);
 
-        img.addEventListener('mouseenter', () => {
-            console.log(showObj.name)
-            img.style.filter = "blur(10px)"
+        showDiv.addEventListener('mouseenter', () => {
+            console.log(showObj.name);
+            img.style.filter = "blur(10px)";
 
-            let textOverlay = document.createElement('div');
-            textOverlay.textContent = 'testing';
-            textOverlay.className = 'show-text'
-            div.append(textOverlay);
+            let overlayDiv = document.createElement('div');
+            overlayDiv.className = 'overlay-div';
+            showDiv.append(overlayDiv);
 
-            img.addEventListener('mouseleave', () => {
+            renderOverlay(showObj, overlayDiv);
+
+            showDiv.addEventListener('mouseleave', () => {
                 img.style.filter = '';
-                textOverlay.remove();
-            })
-        });
-
+                overlayDiv.remove();
+            });
+            
+        });        
     });
+};
+
+// mouseover show to see details and changeButton
+function renderOverlay(showObj, overlayDiv) {
+
+    let textOverlay = document.createElement('div');
+    textOverlay.textContent = showObj.name;
+    textOverlay.className = 'text-overlay';
+    overlayDiv.append(textOverlay);
+
+    // add button to change category
+    let changeButton = document.createElement('button');
+    changeButton.textContent = 'Change Category';
+    changeButton.className = 'change-button';
+    overlayDiv.append(changeButton);
+
+    changeButton.addEventListener('click', () => {
+        console.log('button clicked')
+    })
+
 };
 
 // on form submit, reads input and category and creates the url to grab the show object 

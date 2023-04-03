@@ -1287,6 +1287,65 @@
         }
       },
       "id": 13
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/32863/dare",
+      "name": "DARE",
+      "type": "Scripted",
+      "language": "Dutch",
+      "genres": [],
+      "status": "Ended",
+      "runtime": 10,
+      "averageRuntime": 11,
+      "premiered": "2017-10-23",
+      "ended": "2017-10-25",
+      "officialSite": "https://www.videoland.com/nl/titels/dare/",
+      "schedule": {
+        "time": "",
+        "days": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ]
+      },
+      "rating": {
+        "average": null
+      },
+      "weight": 13,
+      "network": null,
+      "webChannel": {
+        "id": 12,
+        "name": "Videoland",
+        "country": {
+          "name": "Netherlands",
+          "code": "NL",
+          "timezone": "Europe/Amsterdam"
+        },
+        "officialSite": "https://www.videoland.com/"
+      },
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 335906,
+        "imdb": null
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/132/330958.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/132/330958.jpg"
+      },
+      "summary": null,
+      "updated": 1610499390,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/32863"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/1340507"
+        }
+      },
+      "id": 14
     }
   ]
 }
