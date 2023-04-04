@@ -124,6 +124,24 @@ function renderOverlay(showObj, overlayDiv) {
     textOverlay.className = 'text-overlay';
     overlayDiv.append(textOverlay);
 
+    let deleteButton = document.createElement('button');
+    deleteButton.textContent ='x';
+    deleteButton.className = 'delete-button';
+
+    overlayDiv.append(deleteButton);
+
+    deleteButton.addEventListener('click', () => {
+        console.log('deleting this show');
+
+        fetch(`http://localhost:3000/show/${showObj.id}`,{
+            method: 'DELETE'
+        })
+        .then((response) => response.json())
+        .then((data) => {
+            fetchData(clickedCategory);
+        });
+    });
+
     // add button to change category
     let changeButton = document.createElement('button');
     changeButton.textContent = 'Change Category';
@@ -131,7 +149,6 @@ function renderOverlay(showObj, overlayDiv) {
     overlayDiv.append(changeButton);
 
     changeButton.addEventListener('click', () => {
-        console.log('button clicked');
         console.log(clickedCategory)
 
         // create form with selection to change category
@@ -145,6 +162,7 @@ function renderOverlay(showObj, overlayDiv) {
 
         let hiddenOption = document.createElement('option');
         hiddenOption.textContent = 'Select Category';
+        hiddenOption.hidden = 'hidden';
         changeSelect.append(hiddenOption);
 
         // excluding 'all shows' from option creation
@@ -184,6 +202,7 @@ function renderOverlay(showObj, overlayDiv) {
 
 
     }, {once: true});
+
 
 };
 

@@ -44,7 +44,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .text-overlay {
@@ -55,11 +55,18 @@ h3 {
 .change-form {
     position: relative;
     display: flex;
-    align-content: center;
+    justify-content: center;
 }
 
 .change-select {
     position: absolute;
+}
+
+.delete-button {
+    position: relative;
+    margin: 10px;
+    height: 30px;
+    width: 30px;
 }
 
 
