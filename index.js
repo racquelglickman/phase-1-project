@@ -145,7 +145,6 @@ function renderOverlay(showObj, overlayDiv) {
 
         let hiddenOption = document.createElement('option');
         hiddenOption.textContent = 'Select Category';
-        hiddenOption.hidden = 'hidden'; 
         changeSelect.append(hiddenOption);
 
         // excluding 'all shows' from option creation
@@ -167,7 +166,7 @@ function renderOverlay(showObj, overlayDiv) {
             // patch request to change db.json location
             // console.log(showObj.name, showObj.id);
             // console.log(`http://localhost:3000/shows/${clickedCategory}/${showObj.id}`)
-            fetch(`http://localhost:3000/shows/${showObj.id}`, {
+            fetch(`http://localhost:3000/show/${showObj.id}`, {
                 method: "PATCH",
                 headers: {
                     "content-type": "application/json"
@@ -177,6 +176,7 @@ function renderOverlay(showObj, overlayDiv) {
             .then((response) => response.json())
             .then((data) => {
                 console.log(data);
+                fetchData(clickedCategory);
             });
 
         }
@@ -229,8 +229,4 @@ function postNewShow(showObj) {
             fetchData(clickedCategory);
         });
 };
-
-
-
-
 

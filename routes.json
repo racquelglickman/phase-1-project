@@ -1,4 +1,4 @@
 {
     "/shows/:category": "/shows?category=:category",
-    "/shows/:id": "shows/:id"
+    "/show/:id": "/shows/:id"
 }
