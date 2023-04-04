@@ -146,10 +146,10 @@ function renderOverlay(showObj, overlayDiv) {
     let changeButton = document.createElement('button');
     changeButton.textContent = 'Change Category';
     changeButton.className = 'change-button';
+
     overlayDiv.append(changeButton);
 
     changeButton.addEventListener('click', () => {
-        console.log(clickedCategory)
 
         // create form with selection to change category
         let changeForm = document.createElement('form');
@@ -196,14 +196,8 @@ function renderOverlay(showObj, overlayDiv) {
                 console.log(data);
                 fetchData(clickedCategory);
             });
-
         }
-
-
-
     }, {once: true});
-
-
 };
 
 // on form submit, reads input and category and creates the url to grab the show object 
@@ -219,7 +213,7 @@ showSearch.addEventListener('submit', (e) => {
 
     let showURL = encodeURIComponent(input);
 
-    fetch(`https://api.tvmaze.com/singlesearch/shows?q=${showURL}`)
+    fetch(`https://api.tvmaze.com/singlesearch/shows?q=${showURL}&embed=episodes`)
         .then((response) => response.json())
         .then((data) => {
             delete data.id;
@@ -233,8 +227,6 @@ showSearch.addEventListener('submit', (e) => {
 
 // posts new array in db.json with category information and refetches data for clicked category
 function postNewShow(showObj) {
-
-    console.log(showObj);
 
     fetch(`http://localhost:3000/shows`, {
         method: "POST",
