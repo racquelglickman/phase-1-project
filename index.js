@@ -282,7 +282,6 @@ function refreshShow(fullRefreshSelection, showObj) {
     })
     .then((response) => response.json())
     .then((data) => {
-        console.log(data);
         fetchData(clickedCategory);
     });
 
@@ -291,7 +290,6 @@ function refreshShow(fullRefreshSelection, showObj) {
 // on form submit, reads input and category and creates the url to grab the show object 
 showSearch.addEventListener('submit', (e) => {
     e.preventDefault();
-    console.log('new show added');
 
     let input = e.target['input-show-search'].value;
 
@@ -304,6 +302,9 @@ showSearch.addEventListener('submit', (e) => {
     if (selectCategoryName === '') {
         alert('Please select category.')
     } else {
+
+        console.log('new show added');
+
         fetch(`${singlesearchURL}${showURL}`)
             .then((response) => response.json())
             .then((data) => {
@@ -332,7 +333,6 @@ function postNewShow(showObj) {
     })
         .then((response) => response.json())
         .then((data) => {
-            console.log(data)
             fetchData(clickedCategory);
         });
 };

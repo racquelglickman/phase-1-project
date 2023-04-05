@@ -1,183 +1,235 @@
 {
   "shows": [
     {
-      "url": "https://www.tvmaze.com/shows/179/the-wire",
-      "name": "The Wire",
+      "url": "https://www.tvmaze.com/shows/123/lost",
+      "name": "Lost",
       "type": "Scripted",
       "language": "English",
       "genres": [
         "Drama",
-        "Crime"
+        "Adventure",
+        "Supernatural"
       ],
       "status": "Ended",
       "runtime": 60,
       "averageRuntime": 60,
-      "premiered": "2002-06-02",
-      "ended": "2008-03-09",
-      "officialSite": "http://www.hbo.com/the-wire",
+      "premiered": "2004-09-22",
+      "ended": "2010-05-23",
+      "officialSite": "http://abc.go.com/shows/lost",
       "schedule": {
         "time": "21:00",
         "days": [
-          "Sunday"
+          "Tuesday"
         ]
       },
       "rating": {
-        "average": 8.9
+        "average": 8.2
       },
       "weight": 98,
       "network": {
-        "id": 8,
-        "name": "HBO",
+        "id": 3,
+        "name": "ABC",
         "country": {
           "name": "United States",
           "code": "US",
           "timezone": "America/New_York"
         },
-        "officialSite": "https://www.hbo.com/"
+        "officialSite": "https://abc.com/"
       },
       "webChannel": null,
       "dvdCountry": null,
       "externals": {
-        "tvrage": 6296,
-        "thetvdb": 79126,
-        "imdb": "tt0306414"
+        "tvrage": 4284,
+        "thetvdb": 73739,
+        "imdb": "tt0411008"
       },
       "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/1/2527.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/1/2527.jpg"
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1389.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/1389.jpg"
       },
-      "summary": "<p>The first season of <b>The Wire</b> (2002) concentrated on the often-futile efforts of police to infiltrate a West Baltimore drug ring headed by Avon Barksdale and his lieutenant, Stringer Bell. In Seasons Two and Three, as the Barksdale investigation escalated, new storylines involving pressures on the working class and the city's political leadership were introduced. Season Four focused on the stories of several young boys in the public school system, struggling with problems at home and the lure of the corner - set against the rise of a new drug empire in West Baltimore and a new Mayor in City Hall. The fifth and final season of <i>The Wire</i> centers on the media's role in addressing - or failing to address - the fundamental political, economic and social realities depicted over the course of the series, while also resolving storylines of the numerous characters woven throughout the narrative arc of the show.</p>",
-      "updated": 1674939315,
+      "summary": "<p>Out of the blackness, the first thing Jack senses is pain. Then burning sun. A Bamboo forest. Smoke. Screams. With a rush comes the horrible awareness that the plane he was on tore apart in mid-air and crashed on a Pacific island. From there it's a blur, as his doctor's instinct kicks in: people need his help.</p><p>Stripped of everything, the 48 survivors scavenge what they can from the plane for their survival. Some panic. Some pin their hopes on rescue. A few find inner strength they never knew they had -- like Kate, who, with no medical training, suddenly finds herself suturing the doctor's wounds. Hurley - a man with a warm sense of humor despite the desperate situation - does his best to keep his cool as he helps those around him to survive. Charlie is a faded rock star who harbors a painful secret. Sayid is a Middle Eastern man who must wrestle with the racial profiling directed at him by some of his fellow survivors. Jin and Sun are a Korean couple whose traditions, values and language are foreign, and thus causes much to get lost in the translation. Sawyer has an air of danger surrounding him, and his intense sense of mistrust for everyone around him could prove to be fatal to his fellow castaways. Michael has just gained custody of his nine-year-old son, Walt, after the death of his ex-wife - they are a father and son who don't even know each other. Locke is a mysterious man who keeps to himself, and who harbors a deeper connection to the island than any of the others. Self-centered Shannon - who actually gives herself a pedicure amid the chaos - and her estranged controlling brother, Boone , constantly bicker and must learn to get along if they are to survive. And young Claire is eight months pregnant and ill-prepared for the hardships of motherhood - especially on a deserted island.</p>",
+      "updated": 1680708874,
       "_links": {
         "self": {
-          "href": "https://api.tvmaze.com/shows/179"
+          "href": "https://api.tvmaze.com/shows/123"
         },
         "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/12969"
+          "href": "https://api.tvmaze.com/episodes/10260"
         }
       },
-      "category": "future",
+      "category": "finished",
       "id": 1
     },
     {
-      "url": "https://www.tvmaze.com/shows/527/the-sopranos",
-      "name": "The Sopranos",
+      "url": "https://www.tvmaze.com/shows/321/arrested-development",
+      "name": "Arrested Development",
       "type": "Scripted",
       "language": "English",
       "genres": [
-        "Drama",
-        "Crime"
+        "Comedy",
+        "Family"
       ],
       "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "1999-01-10",
-      "ended": "2007-06-10",
-      "officialSite": "http://www.hbo.com/the-sopranos",
+      "runtime": null,
+      "averageRuntime": 30,
+      "premiered": "2003-11-02",
+      "ended": "2019-03-15",
+      "officialSite": "https://www.netflix.com/title/70140358",
       "schedule": {
-        "time": "21:00",
-        "days": [
-          "Sunday"
-        ]
+        "time": "",
+        "days": []
       },
       "rating": {
-        "average": 8.9
+        "average": 8.3
       },
       "weight": 96,
-      "network": {
-        "id": 8,
-        "name": "HBO",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.hbo.com/"
+      "network": null,
+      "webChannel": {
+        "id": 1,
+        "name": "Netflix",
+        "country": null,
+        "officialSite": "https://www.netflix.com/"
       },
-      "webChannel": null,
       "dvdCountry": null,
       "externals": {
-        "tvrage": 6206,
-        "thetvdb": 75299,
-        "imdb": "tt0141842"
+        "tvrage": 2649,
+        "thetvdb": 72173,
+        "imdb": "tt0367279"
       },
       "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11341.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11341.jpg"
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/338/846049.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/338/846049.jpg"
       },
-      "summary": "<p><b>The Sopranos</b>, writer-producer-director David Chase's extraordinary television series, is nominally an urban gangster drama, but its true impact strikes closer to home: Like 1999's other screen touchstone, American Beauty, the HBO series chronicles a dysfunctional, suburban American family in bold relief. And for protagonist Tony Soprano, there's the added complexity posed by heading twin families, his collegial mob clan and his own, nouveau riche brood.</p>",
-      "updated": 1661802564,
+      "summary": "<p>After being passed over as partner at The Bluth Co., widower Michael resolves to quit the family business and move away to spend more quality time with his 13-year-old son, George Michael. But when his father George Bluth Sr. is arrested for shifty accounting practices and the family assets are frozen, Michael is forced to stay in Orange County to help his wildly eccentric family pick up the pieces.</p>",
+      "updated": 1648987119,
       "_links": {
         "self": {
-          "href": "https://api.tvmaze.com/shows/527"
+          "href": "https://api.tvmaze.com/shows/321"
         },
         "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/47925"
+          "href": "https://api.tvmaze.com/episodes/1612265"
         }
       },
       "category": "future",
       "id": 2
     },
     {
-      "url": "https://www.tvmaze.com/shows/23470/succession",
-      "name": "Succession",
+      "url": "https://www.tvmaze.com/shows/55350/abbott-elementary",
+      "name": "Abbott Elementary",
       "type": "Scripted",
       "language": "English",
       "genres": [
-        "Drama",
-        "Family"
+        "Comedy"
       ],
       "status": "Running",
-      "runtime": null,
-      "averageRuntime": 61,
-      "premiered": "2018-06-03",
+      "runtime": 30,
+      "averageRuntime": 31,
+      "premiered": "2021-12-07",
       "ended": null,
-      "officialSite": "https://www.hbo.com/succession",
+      "officialSite": "https://abc.com/shows/abbott-elementary",
       "schedule": {
         "time": "21:00",
         "days": [
-          "Sunday"
+          "Wednesday"
         ]
       },
       "rating": {
-        "average": 7.4
+        "average": 5.6
       },
-      "weight": 100,
+      "weight": 99,
       "network": {
-        "id": 8,
-        "name": "HBO",
+        "id": 3,
+        "name": "ABC",
         "country": {
           "name": "United States",
           "code": "US",
           "timezone": "America/New_York"
         },
-        "officialSite": "https://www.hbo.com/"
+        "officialSite": "https://abc.com/"
       },
       "webChannel": null,
       "dvdCountry": null,
       "externals": {
         "tvrage": null,
-        "thetvdb": 338186,
-        "imdb": "tt7660850"
+        "thetvdb": 402910,
+        "imdb": "tt14218830"
       },
       "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/453/1134275.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/453/1134275.jpg"
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/421/1052621.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/421/1052621.jpg"
       },
-      "summary": "<p><b>Succession </b>follows the saga of the Roys, a fictional, American global-media family that is not only rich and powerful but also powerfully dysfunctional. The drama will explore family loyalty, international business and the perils of power in the 21st century.</p><p>Power, politics, money...it's all in the family in this provocative, funny series about a highly dysfunctional dynasty. When Logan Roy, CEO of one of the world's largest media and entertainment conglomerates, considers retirement, each of his four grown children follows a personal agenda that doesn't always sync with those of their siblings--or of their father.</p>",
-      "updated": 1680614456,
+      "summary": "<p>In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don't love the school district's less-than-stellar attitude toward educating children.</p>",
+      "updated": 1680663526,
       "_links": {
         "self": {
-          "href": "https://api.tvmaze.com/shows/23470"
+          "href": "https://api.tvmaze.com/shows/55350"
         },
         "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2479923"
+          "href": "https://api.tvmaze.com/episodes/2492741"
         },
         "nextepisode": {
-          "href": "https://api.tvmaze.com/episodes/2479924"
+          "href": "https://api.tvmaze.com/episodes/2506931"
         }
       },
       "category": "currently",
+      "id": 3
+    },
+    {
+      "url": "https://www.tvmaze.com/shows/560/one-tree-hill",
+      "name": "One Tree Hill",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama"
+      ],
+      "status": "Ended",
+      "runtime": 60,
+      "averageRuntime": 60,
+      "premiered": "2003-09-23",
+      "ended": "2012-04-04",
+      "officialSite": null,
+      "schedule": {
+        "time": "20:00",
+        "days": [
+          "Wednesday"
+        ]
+      },
+      "rating": {
+        "average": 8.1
+      },
+      "weight": 77,
+      "network": {
+        "id": 5,
+        "name": "The CW",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.cwtv.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": 4724,
+        "thetvdb": 72158,
+        "imdb": "tt0368530"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11665.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11665.jpg"
+      },
+      "summary": "<p><b>One Tree Hill</b> explores the delicate balance that contemporary young people face as they endeavor to build and define what their lives will be, while overcoming difficulties and embracing the good things that they sometimes take for granted. The series celebrates the most important things -- among them the quest for love, laughter, health, friends, career and family -- timeless pursuits that have always mattered, and matter still.</p>",
+      "updated": 1678339912,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/560"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/52232"
+        }
+      },
+      "category": "finished",
       "id": 4
     },
     {
@@ -241,6 +293,65 @@
       "id": 5
     },
     {
+      "url": "https://www.tvmaze.com/shows/51394/the-white-lotus",
+      "name": "The White Lotus",
+      "type": "Scripted",
+      "language": "English",
+      "genres": [
+        "Drama",
+        "Comedy"
+      ],
+      "status": "Running",
+      "runtime": 60,
+      "averageRuntime": 62,
+      "premiered": "2021-07-11",
+      "ended": null,
+      "officialSite": "https://www.hbo.com/the-white-lotus",
+      "schedule": {
+        "time": "21:00",
+        "days": [
+          "Sunday"
+        ]
+      },
+      "rating": {
+        "average": 6.7
+      },
+      "weight": 99,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
+      },
+      "webChannel": null,
+      "dvdCountry": null,
+      "externals": {
+        "tvrage": null,
+        "thetvdb": 390430,
+        "imdb": "tt13406094"
+      },
+      "image": {
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/434/1085967.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/434/1085967.jpg"
+      },
+      "summary": "<p>A social satire set at an exclusive tropical resort, <b>The White Lotus</b> follows the exploits of various guests and employees over the span of a week.</p>",
+      "updated": 1674891263,
+      "_links": {
+        "self": {
+          "href": "https://api.tvmaze.com/shows/51394"
+        },
+        "previousepisode": {
+          "href": "https://api.tvmaze.com/episodes/2423328"
+        }
+      },
+      "category": "currently",
+      "id": 6
+    },
+    {
       "url": "https://www.tvmaze.com/shows/36672/yellowjackets",
       "name": "Yellowjackets",
       "type": "Scripted",
@@ -300,1138 +411,69 @@
         }
       },
       "category": "currently",
-      "id": 6
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/555/avatar-the-last-airbender",
-      "name": "Avatar: The Last Airbender",
-      "type": "Animation",
-      "language": "English",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2005-02-21",
-      "ended": "2008-07-19",
-      "officialSite": "https://www.nick.com/shows/avatar",
-      "schedule": {
-        "time": "11:00",
-        "days": [
-          "Saturday"
-        ]
-      },
-      "rating": {
-        "average": 8.9
-      },
-      "weight": 92,
-      "network": {
-        "id": 27,
-        "name": "Nickelodeon",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.nick.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 2680,
-        "thetvdb": 74852,
-        "imdb": "tt0417299"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/79/199224.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/79/199224.jpg"
-      },
-      "summary": "<p>Water. Earth. Fire. Air. Only the Avatar was the master of all four elements. Only he could stop the ruthless Fire Nation from conquering the world. But when the world needed him most, he disappeared. Until now... On the South Pole, a lone Water Tribe village struggles to survive. It's here that a young Waterbender named Katara and her warrior brother Sokka rescue a strange boy named Aang from a cavernous iceberg. Not only is Aang an Airbender--a race of people no one has seen in a century--but they soon discover that Aang is also the long lost Avatar. Now it's up to Katara and Sokka to make sure Aang faces his destiny to save the tribe--and himself. Did we mention he's only 12?</p>",
-      "updated": 1649612060,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/555"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/51776"
-        }
-      },
-      "category": "future",
       "id": 7
     },
     {
-      "url": "https://www.tvmaze.com/shows/103/law-order-special-victims-unit",
-      "name": "Law & Order: Special Victims Unit",
+      "url": "https://www.tvmaze.com/shows/23470/succession",
+      "name": "Succession",
       "type": "Scripted",
       "language": "English",
       "genres": [
         "Drama",
-        "Crime",
-        "Legal"
-      ],
-      "status": "Running",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "1999-09-20",
-      "ended": null,
-      "officialSite": "http://www.nbc.com/law-and-order-special-victims-unit",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Thursday"
-        ]
-      },
-      "rating": {
-        "average": 7.9
-      },
-      "weight": 100,
-      "network": {
-        "id": 1,
-        "name": "NBC",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.nbc.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 4204,
-        "thetvdb": 75692,
-        "imdb": "tt0203259"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/426/1065684.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/426/1065684.jpg"
-      },
-      "summary": "<p>In the criminal justice system, sexually-based offenses are considered especially heinous. In New York City, the dedicated detectives who investigate these vicious felonies are members of an elite squad known as the Special Victims Unit. These are their stories.</p>",
-      "updated": 1680477799,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/103"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2500270"
-        },
-        "nextepisode": {
-          "href": "https://api.tvmaze.com/episodes/2500271"
-        }
-      },
-      "category": "currently",
-      "id": 8
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/123/lost",
-      "name": "Lost",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Adventure",
-        "Supernatural"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2004-09-22",
-      "ended": "2010-05-23",
-      "officialSite": "http://abc.go.com/shows/lost",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Tuesday"
-        ]
-      },
-      "rating": {
-        "average": 8.2
-      },
-      "weight": 98,
-      "network": {
-        "id": 3,
-        "name": "ABC",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://abc.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 4284,
-        "thetvdb": 73739,
-        "imdb": "tt0411008"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/1389.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/1389.jpg"
-      },
-      "summary": "<p>Out of the blackness, the first thing Jack senses is pain. Then burning sun. A Bamboo forest. Smoke. Screams. With a rush comes the horrible awareness that the plane he was on tore apart in mid-air and crashed on a Pacific island. From there it's a blur, as his doctor's instinct kicks in: people need his help.</p><p>Stripped of everything, the 48 survivors scavenge what they can from the plane for their survival. Some panic. Some pin their hopes on rescue. A few find inner strength they never knew they had -- like Kate, who, with no medical training, suddenly finds herself suturing the doctor's wounds. Hurley - a man with a warm sense of humor despite the desperate situation - does his best to keep his cool as he helps those around him to survive. Charlie is a faded rock star who harbors a painful secret. Sayid is a Middle Eastern man who must wrestle with the racial profiling directed at him by some of his fellow survivors. Jin and Sun are a Korean couple whose traditions, values and language are foreign, and thus causes much to get lost in the translation. Sawyer has an air of danger surrounding him, and his intense sense of mistrust for everyone around him could prove to be fatal to his fellow castaways. Michael has just gained custody of his nine-year-old son, Walt, after the death of his ex-wife - they are a father and son who don't even know each other. Locke is a mysterious man who keeps to himself, and who harbors a deeper connection to the island than any of the others. Self-centered Shannon - who actually gives herself a pedicure amid the chaos - and her estranged controlling brother, Boone , constantly bicker and must learn to get along if they are to survive. And young Claire is eight months pregnant and ill-prepared for the hardships of motherhood - especially on a deserted island.</p>",
-      "updated": 1680708874,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/123"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/10260"
-        }
-      },
-      "category": "finished",
-      "id": 9
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/560/one-tree-hill",
-      "name": "One Tree Hill",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2003-09-23",
-      "ended": "2012-04-04",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Wednesday"
-        ]
-      },
-      "rating": {
-        "average": 8.1
-      },
-      "weight": 77,
-      "network": {
-        "id": 5,
-        "name": "The CW",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.cwtv.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 4724,
-        "thetvdb": 72158,
-        "imdb": "tt0368530"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11665.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11665.jpg"
-      },
-      "summary": "<p><b>One Tree Hill</b> explores the delicate balance that contemporary young people face as they endeavor to build and define what their lives will be, while overcoming difficulties and embracing the good things that they sometimes take for granted. The series celebrates the most important things -- among them the quest for love, laughter, health, friends, career and family -- timeless pursuits that have always mattered, and matter still.</p>",
-      "updated": 1678339912,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/560"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/52232"
-        }
-      },
-      "category": "finished",
-      "id": 10
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/55350/abbott-elementary",
-      "name": "Abbott Elementary",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy"
-      ],
-      "status": "Running",
-      "runtime": 30,
-      "averageRuntime": 31,
-      "premiered": "2021-12-07",
-      "ended": null,
-      "officialSite": "https://abc.com/shows/abbott-elementary",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Wednesday"
-        ]
-      },
-      "rating": {
-        "average": 5.6
-      },
-      "weight": 99,
-      "network": {
-        "id": 3,
-        "name": "ABC",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://abc.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": null,
-        "thetvdb": 402910,
-        "imdb": "tt14218830"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/421/1052621.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/421/1052621.jpg"
-      },
-      "summary": "<p>In this workplace comedy, a group of dedicated, passionate teachers — and a slightly tone-deaf principal — are brought together in a Philadelphia public school where, despite the odds stacked against them, they are determined to help their students succeed in life. Though these incredible public servants may be outnumbered and underfunded, they love what they do — even if they don't love the school district's less-than-stellar attitude toward educating children.</p>",
-      "updated": 1680663526,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/55350"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2492741"
-        },
-        "nextepisode": {
-          "href": "https://api.tvmaze.com/episodes/2506931"
-        }
-      },
-      "category": "currently",
-      "id": 11
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/776/the-oc",
-      "name": "The O.C.",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2003-08-05",
-      "ended": "2007-02-22",
-      "officialSite": null,
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Thursday"
-        ]
-      },
-      "rating": {
-        "average": 7.5
-      },
-      "weight": 93,
-      "network": {
-        "id": 4,
-        "name": "FOX",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.fox.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 6054,
-        "thetvdb": 72164,
-        "imdb": "tt0362359"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15394.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15394.jpg"
-      },
-      "summary": "<p>A slick hit about a troubled L.A. teen taken in by an idealistic lawyer and his family in affluent Orange County. The series filled the youth-soap hole left by the departed '90210,' but quickly proved itself far more gritty---and witty. In addition, early plots set up an appealing balance between the kids and grown-ups, who were portrayed as real people with real problems, instead of sounding boards for the unblemished Romeos and Juliets.</p>",
-      "updated": 1679854476,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/776"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/68671"
-        }
-      },
-      "category": "finished",
-      "id": 12
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/51394/the-white-lotus",
-      "name": "The White Lotus",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "status": "Running",
-      "runtime": 60,
-      "averageRuntime": 62,
-      "premiered": "2021-07-11",
-      "ended": null,
-      "officialSite": "https://www.hbo.com/the-white-lotus",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Sunday"
-        ]
-      },
-      "rating": {
-        "average": 6.7
-      },
-      "weight": 99,
-      "network": {
-        "id": 8,
-        "name": "HBO",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.hbo.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": null,
-        "thetvdb": 390430,
-        "imdb": "tt13406094"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/434/1085967.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/434/1085967.jpg"
-      },
-      "summary": "<p>A social satire set at an exclusive tropical resort, <b>The White Lotus</b> follows the exploits of various guests and employees over the span of a week.</p>",
-      "updated": 1674891263,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/51394"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2423328"
-        }
-      },
-      "category": "currently",
-      "id": 13
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/526/the-office",
-      "name": "The Office",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2005-03-24",
-      "ended": "2013-05-16",
-      "officialSite": "http://www.nbc.com/the-office",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Thursday"
-        ]
-      },
-      "rating": {
-        "average": 8.4
-      },
-      "weight": 98,
-      "network": {
-        "id": 1,
-        "name": "NBC",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.nbc.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 6061,
-        "thetvdb": 73244,
-        "imdb": "tt0386676"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/271/678637.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/678637.jpg"
-      },
-      "summary": "<p>Steve Carell stars in <b>The Office</b>, a fresh and funny mockumentary-style glimpse into the daily interactions of the eccentric workers at the Dunder Mifflin paper supply company. Based on the smash-hit British series of the same name and adapted for American Television by Greg Daniels, this fast-paced comedy parodies contemporary American water-cooler culture. Earnest but clueless regional manager Michael Scott believes himself to be an exceptional boss and mentor, but actually receives more eye-rolls than respect from his oddball staff.</p>",
-      "updated": 1677413462,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/526"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/711203"
-        }
-      },
-      "category": "finished",
-      "id": 14
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/174/parks-and-recreation",
-      "name": "Parks and Recreation",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2009-04-09",
-      "ended": "2015-02-24",
-      "officialSite": "http://www.nbc.com/parks-and-recreation",
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Tuesday"
-        ]
-      },
-      "rating": {
-        "average": 8.3
-      },
-      "weight": 96,
-      "network": {
-        "id": 1,
-        "name": "NBC",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.nbc.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 21686,
-        "thetvdb": 84912,
-        "imdb": "tt1266020"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/2439.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/2439.jpg"
-      },
-      "summary": "<p><b>Parks and Recreation</b> is a comedy series based around the main character Leslie Knope (a bureaucrat) in the parks department of Pawnee.</p>",
-      "updated": 1679551879,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/174"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/57787"
-        }
-      },
-      "category": "finished",
-      "id": 15
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/82/game-of-thrones",
-      "name": "Game of Thrones",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Adventure",
-        "Fantasy"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 61,
-      "premiered": "2011-04-17",
-      "ended": "2019-05-19",
-      "officialSite": "http://www.hbo.com/game-of-thrones",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Sunday"
-        ]
-      },
-      "rating": {
-        "average": 9
-      },
-      "weight": 99,
-      "network": {
-        "id": 8,
-        "name": "HBO",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.hbo.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 24493,
-        "thetvdb": 121361,
-        "imdb": "tt0944947"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/190/476117.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/190/476117.jpg"
-      },
-      "summary": "<p>Based on the bestselling book series <i>A Song of Ice and Fire</i> by George R.R. Martin, this sprawling new HBO drama is set in a world where summers span decades and winters can last a lifetime. From the scheming south and the savage eastern lands, to the frozen north and ancient Wall that protects the realm from the mysterious darkness beyond, the powerful families of the Seven Kingdoms are locked in a battle for the Iron Throne. This is a story of duplicity and treachery, nobility and honor, conquest and triumph. In the <b>Game of Thrones</b>, you either win or you die.</p>",
-      "updated": 1658720459,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/82"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/1623968"
-        }
-      },
-      "category": "finished",
-      "id": 16
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/683/boy-meets-world",
-      "name": "Boy Meets World",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Comedy",
         "Family"
       ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "1993-09-24",
-      "ended": "2000-05-05",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:30",
-        "days": [
-          "Friday"
-        ]
-      },
-      "rating": {
-        "average": 7.9
-      },
-      "weight": 93,
-      "network": {
-        "id": 3,
-        "name": "ABC",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://abc.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 2887,
-        "thetvdb": 71889,
-        "imdb": "tt0105958"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/400/1000796.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/400/1000796.jpg"
-      },
-      "summary": "<p>Cory is your average guy. He has a best friend from the other side of the tracks, a teacher that constantly keeps him on his toes, and a friend named Topanga whom he has trouble understanding. With the support of his parents and his brother Eric, Cory learns to cope with the roller coaster called growing up.</p>",
-      "updated": 1667762404,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/683"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/60207"
-        }
-      },
-      "category": "finished",
-      "id": 17
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/67/greys-anatomy",
-      "name": "Grey's Anatomy",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Medical"
-      ],
       "status": "Running",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2005-03-27",
+      "runtime": null,
+      "averageRuntime": 61,
+      "premiered": "2018-06-03",
       "ended": null,
-      "officialSite": "https://abc.com/shows/greys-anatomy/",
+      "officialSite": "https://www.hbo.com/succession",
       "schedule": {
         "time": "21:00",
         "days": [
-          "Thursday"
-        ]
-      },
-      "rating": {
-        "average": 7.7
-      },
-      "weight": 100,
-      "network": {
-        "id": 3,
-        "name": "ABC",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://abc.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 3741,
-        "thetvdb": 73762,
-        "imdb": "tt0413573"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/424/1061065.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/424/1061065.jpg"
-      },
-      "summary": "<p>The doctors of Grey Sloan Memorial Hospital deal with life-or-death consequences on a daily basis -- it's in one another that they find comfort, friendship and, at times, more than friendship. Together they're discovering that neither medicine nor relationships can be defined in black and white. Real life only comes in shades of grey.</p>",
-      "updated": 1680367494,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/67"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2491016"
-        },
-        "nextepisode": {
-          "href": "https://api.tvmaze.com/episodes/2491017"
-        }
-      },
-      "category": "finished",
-      "id": 18
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/171/how-i-met-your-mother",
-      "name": "How I Met Your Mother",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2005-09-19",
-      "ended": "2014-03-31",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Monday"
-        ]
-      },
-      "rating": {
-        "average": 7.8
-      },
-      "weight": 98,
-      "network": {
-        "id": 2,
-        "name": "CBS",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.cbs.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 3918,
-        "thetvdb": 75760,
-        "imdb": "tt0460649"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/2451.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/2451.jpg"
-      },
-      "summary": "<p><b>How I Met Your Mother</b> is a comedy about Ted and how he fell in love. It all starts when Ted's best friend, Marshall drops the bombshell that he's going to propose to his long-time girlfriend, Lilya kindergarten teacher. At that moment, Ted realizes that he had better get a move on if he too hopes to find true love. Helping him in his quest is Barney a friend with endless, sometimes outrageous opinions, a penchant for suits and a foolproof way to meet women. When Ted meets Robin he's sure it's love at first sight, but destiny may have something else in store.</p>",
-      "updated": 1674543708,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/171"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/12492"
-        }
-      },
-      "category": "finished",
-      "id": 19
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/54887/how-i-met-your-father",
-      "name": "How I Met Your Father",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy"
-      ],
-      "status": "Running",
-      "runtime": null,
-      "averageRuntime": 23,
-      "premiered": "2022-01-18",
-      "ended": null,
-      "officialSite": "https://hulu.com/series/how-i-met-your-father-42771fe9-3174-43bc-ab6a-d8c3e618b934",
-      "schedule": {
-        "time": "",
-        "days": [
-          "Tuesday"
-        ]
-      },
-      "rating": {
-        "average": 5.2
-      },
-      "weight": 99,
-      "network": null,
-      "webChannel": {
-        "id": 2,
-        "name": "Hulu",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.hulu.com/"
-      },
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": null,
-        "thetvdb": 401513,
-        "imdb": "tt14500082"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/445/1112546.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/445/1112546.jpg"
-      },
-      "summary": "<p>In the near future, Sophie is telling her son the story of how she met his father: a story that catapults us back to the present where Sophie and her close-knit group of friends are in the midst of figuring out who they are, what they want out of life, and how to fall in love in the age of dating apps and limitless options.</p>",
-      "updated": 1680031658,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/54887"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2467102"
-        },
-        "nextepisode": {
-          "href": "https://api.tvmaze.com/episodes/2485456"
-        }
-      },
-      "category": "currently",
-      "id": 20
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/578/90210",
-      "name": "90210",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2008-09-02",
-      "ended": "2013-05-13",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Monday"
-        ]
-      },
-      "rating": {
-        "average": 6.6
-      },
-      "weight": 93,
-      "network": {
-        "id": 5,
-        "name": "The CW",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.cwtv.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 18813,
-        "thetvdb": 82716,
-        "imdb": "tt1225901"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11847.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11847.jpg"
-      },
-      "summary": "<p>The fifth season of <b>90210</b> will find the gang struggling with the biggest issues of their lives. Having put their relatively carefree days at West Beverly behind them and launched themselves into adulthood, they will search for answers to their trials and tribulations with only their friendships to lean on.</p><p>They will experience new love and old flames, loyalties being challenged and shocking betrayals. Some friendships will be tested, others will be renewed and new people who will try to infiltrate the close circle of friends. There are some things money can't buy, even in 90210.</p>",
-      "updated": 1650093081,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/578"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/54769"
-        }
-      },
-      "category": "finished",
-      "id": 21
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/818/beverly-hills-90210",
-      "name": "Beverly Hills, 90210",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "1990-10-04",
-      "ended": "2000-05-17",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Wednesday"
-        ]
-      },
-      "rating": {
-        "average": 6.1
-      },
-      "weight": 94,
-      "network": {
-        "id": 4,
-        "name": "FOX",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.fox.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 2776,
-        "thetvdb": 74936,
-        "imdb": "tt0098749"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15698.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15698.jpg"
-      },
-      "summary": "<p>This long-running drama dealt with the experiences of a group of young people in Beverly Hills, CA as they navigated high school, college and ultimately the real world. The series focused on their travails as they tried to maintain their friendship while dealing with romances, family and personal crises, tragedies and countless drug addictions.</p>",
-      "updated": 1680476496,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/818"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/335857"
-        }
-      },
-      "category": "finished",
-      "id": 22
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/845/dawsons-creek",
-      "name": "Dawson's Creek",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "1998-01-20",
-      "ended": "2003-05-14",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Wednesday"
-        ]
-      },
-      "rating": {
-        "average": 7.2
-      },
-      "weight": 95,
-      "network": {
-        "id": 71,
-        "name": "The WB",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": null
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 3255,
-        "thetvdb": 72584,
-        "imdb": "tt0118300"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/81/204413.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/81/204413.jpg"
-      },
-      "summary": "<p>Dawson Leery, Joey Potter, and Pacey Witter are life long friends, whose lives start to rapidly change when a new girl, Jen Lindley, moves in next door to Dawson and the foursome start high school. Chronicling the passage from adolescence to young adulthood, they are joined by two other newcomers to Capeside: brother and sister Jack and Andie McPhee and, when they go to college, by Audrey Liddell. Set in the fictional town of Capeside, MA., <b>Dawson's Creek</b> is the coming of age story of a close knit group of friends on the verge of adulthood.</p>",
-      "updated": 1675044058,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/845"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/78752"
-        }
-      },
-      "category": "finished",
-      "id": 23
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/3929/summerland",
-      "name": "Summerland",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2004-06-01",
-      "ended": "2005-07-18",
-      "officialSite": null,
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Monday"
-        ]
-      },
-      "rating": {
-        "average": null
-      },
-      "weight": 44,
-      "network": {
-        "id": 71,
-        "name": "The WB",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": null
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 5389,
-        "thetvdb": 72831,
-        "imdb": "tt0400037"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/19/48967.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/19/48967.jpg"
-      },
-      "summary": "<p>Bradin, Nikki and Derrick are 3 kids from an average normal Kansas household. Their whole life is thrown upside-down when their parents are tragically killed in a car accident. Ava Gregory (their aunt) gets custody of her niece and nephews and they move into her Californian home (in Summerland). Ava, a struggling clothes designer, lives with her best friend and business partner, Susannah Rexford, her friend, an ex- pro.surfer, Jay Robertson and her ex-boyfriend, real estate agent, Johnny Durrant. All four of them are highly unequipped to handle children and are not use to including them in their everyday lives.</p>",
-      "updated": 1666210354,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/3929"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/252359"
-        }
-      },
-      "category": "finished",
-      "id": 24
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/623/younger",
-      "name": "Younger",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": null,
-      "averageRuntime": 31,
-      "premiered": "2015-03-31",
-      "ended": "2021-06-10",
-      "officialSite": "https://www.paramountplus.com/shows/younger/",
-      "schedule": {
-        "time": "",
-        "days": [
-          "Thursday"
+          "Sunday"
         ]
       },
       "rating": {
         "average": 7.4
       },
-      "weight": 90,
-      "network": null,
-      "webChannel": {
-        "id": 107,
-        "name": "Paramount+",
-        "country": null,
-        "officialSite": "https://www.paramountplus.com/"
+      "weight": 100,
+      "network": {
+        "id": 8,
+        "name": "HBO",
+        "country": {
+          "name": "United States",
+          "code": "US",
+          "timezone": "America/New_York"
+        },
+        "officialSite": "https://www.hbo.com/"
       },
+      "webChannel": null,
       "dvdCountry": null,
       "externals": {
-        "tvrage": 37246,
-        "thetvdb": 280706,
-        "imdb": "tt3288518"
+        "tvrage": null,
+        "thetvdb": 338186,
+        "imdb": "tt7660850"
       },
       "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/310/775414.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/310/775414.jpg"
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/453/1134275.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/453/1134275.jpg"
       },
-      "summary": "<p><b>Younger</b> follows 40-year old Liza, a suddenly single mother who tries to get back into the working world, only to find it's nearly impossible to start at the bottom at her age. When a chance encounter with a young guy at a bar convinces her she looks younger than she is, Liza tries to pass herself off as 26 - with the help of a makeover, courtesy of her best friend Maggie. Armed with new confidence, she lands a job as an assistant to the temperamental Diana and teams up with her new co-worker and 20-something Kelsey to make it in the career of her dreams. Now she just has to make sure no one finds out the secret only she and Maggie share.</p>",
-      "updated": 1673645747,
+      "summary": "<p><b>Succession </b>follows the saga of the Roys, a fictional, American global-media family that is not only rich and powerful but also powerfully dysfunctional. The drama will explore family loyalty, international business and the perils of power in the 21st century.</p><p>Power, politics, money...it's all in the family in this provocative, funny series about a highly dysfunctional dynasty. When Logan Roy, CEO of one of the world's largest media and entertainment conglomerates, considers retirement, each of his four grown children follows a personal agenda that doesn't always sync with those of their siblings--or of their father.</p>",
+      "updated": 1680614456,
       "_links": {
         "self": {
-          "href": "https://api.tvmaze.com/shows/623"
+          "href": "https://api.tvmaze.com/shows/23470"
         },
         "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2103850"
+          "href": "https://api.tvmaze.com/episodes/2479923"
+        },
+        "nextepisode": {
+          "href": "https://api.tvmaze.com/episodes/2479924"
         }
       },
-      "category": "finished",
-      "id": 25
+      "category": "currently",
+      "id": 8
     },
     {
       "url": "https://www.tvmaze.com/shows/781/friday-night-lights",
@@ -1490,897 +532,66 @@
         }
       },
       "category": "finished",
-      "id": 26
+      "id": 9
     },
     {
-      "url": "https://www.tvmaze.com/shows/2993/stranger-things",
-      "name": "Stranger Things",
+      "url": "https://www.tvmaze.com/shows/527/the-sopranos",
+      "name": "The Sopranos",
       "type": "Scripted",
       "language": "English",
       "genres": [
         "Drama",
-        "Horror",
-        "Science-Fiction"
-      ],
-      "status": "Running",
-      "runtime": null,
-      "averageRuntime": 62,
-      "premiered": "2016-07-15",
-      "ended": null,
-      "officialSite": "https://www.netflix.com/title/80057281",
-      "schedule": {
-        "time": "",
-        "days": [
-          "Friday"
-        ]
-      },
-      "rating": {
-        "average": 8.5
-      },
-      "weight": 99,
-      "network": null,
-      "webChannel": {
-        "id": 1,
-        "name": "Netflix",
-        "country": null,
-        "officialSite": "https://www.netflix.com/"
-      },
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 48493,
-        "thetvdb": 305288,
-        "imdb": "tt4574334"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/396/991288.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/396/991288.jpg"
-      },
-      "summary": "<p>A love letter to the '80s classics that captivated a generation, <b>Stranger Things</b> is set in 1983 Indiana, where a young boy vanishes into thin air. As friends, family and local police search for answers, they are drawn into an extraordinary mystery involving top-secret government experiments, terrifying supernatural forces and one very strange little girl.</p>",
-      "updated": 1667829326,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/2993"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2209857"
-        }
-      },
-      "category": "currently",
-      "id": 27
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/673/roswell",
-      "name": "Roswell",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Science-Fiction"
+        "Crime"
       ],
       "status": "Ended",
       "runtime": 60,
       "averageRuntime": 60,
-      "premiered": "1999-10-06",
-      "ended": "2002-05-14",
-      "officialSite": null,
+      "premiered": "1999-01-10",
+      "ended": "2007-06-10",
+      "officialSite": "http://www.hbo.com/the-sopranos",
       "schedule": {
         "time": "21:00",
         "days": [
-          "Tuesday"
-        ]
-      },
-      "rating": {
-        "average": 7.6
-      },
-      "weight": 93,
-      "network": {
-        "id": 70,
-        "name": "UPN",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": null
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 5056,
-        "thetvdb": 73965,
-        "imdb": "tt0201391"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/417/1044575.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/417/1044575.jpg"
-      },
-      "summary": "<p>Human/Alien hybrids, must hide their alien sides to fit into their New Mexico-high school, while attempting to learn about their past, their gifts, and love as outsiders. Their destinies clash with their feelings as they discover the extraordinary circumstances that led them to Earth, and may eventually lead them home.</p>",
-      "updated": 1673735048,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/673"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/59359"
-        }
-      },
-      "category": "finished",
-      "id": 28
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/282/awkward",
-      "name": "Awkward.",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2011-07-19",
-      "ended": "2016-05-24",
-      "officialSite": "http://www.mtv.com/shows/awkward",
-      "schedule": {
-        "time": "22:00",
-        "days": [
-          "Tuesday"
-        ]
-      },
-      "rating": {
-        "average": 6.8
-      },
-      "weight": 86,
-      "network": {
-        "id": 22,
-        "name": "MTV",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": null
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 28691,
-        "thetvdb": 249882,
-        "imdb": "tt1663676"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/1/4811.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/1/4811.jpg"
-      },
-      "summary": "<p>This series takes an irreverent look at the conflict, chaos and humor that defines teenage life through the eyes of 15-year-old Jenna Hamilton, whose life begins to change when a simple accident becomes an epic misunderstanding and is blown way out of proportion.</p><p>Narrated in the first-person voice of Jenna's blog posts, <b>Awkward</b> captures the humor within the struggles and experiences everyone can relate to from their formative years. The series picks up in the aftermath of the accident as she must deal with a new not-so-fun stigma, while at the same time managing the other daily drama that comes with being a teenager. From a secret relationship with a popular guy, to being undermined by a mean girl, and parents who just don't get it - Jenna's misfortune will eventually serve as the catalyst for amazing change, but it's not without some missteps and mishaps along the way.</p>",
-      "updated": 1605542931,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/282"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/770179"
-        }
-      },
-      "category": "finished",
-      "id": 29
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/915/the-suite-life-of-zack-and-cody",
-      "name": "The Suite Life of Zack and Cody",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy",
-        "Children",
-        "Family"
-      ],
-      "status": "Ended",
-      "runtime": 25,
-      "averageRuntime": 25,
-      "premiered": "2005-03-18",
-      "ended": "2008-09-01",
-      "officialSite": null,
-      "schedule": {
-        "time": "12:00",
-        "days": []
-      },
-      "rating": {
-        "average": 8.2
-      },
-      "weight": 47,
-      "network": {
-        "id": 78,
-        "name": "Disney Channel",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://disneynow.com/all-shows/disney-channel"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 6221,
-        "thetvdb": 79316,
-        "imdb": "tt0426371"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/453/1132771.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/453/1132771.jpg"
-      },
-      "summary": "<p>Meet <i>Zack and Cody</i>, 11 year-old identical twins and the newest residents of Boston's swanky Tipton Hotel on <b>The Suite Life of Zack and Cody</b>.</p>",
-      "updated": 1679382149,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/915"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/86657"
-        }
-      },
-      "category": "finished",
-      "id": 30
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/777/hannah-montana",
-      "name": "Hannah Montana",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy",
-        "Family",
-        "Music"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2006-03-24",
-      "ended": "2011-01-16",
-      "officialSite": null,
-      "schedule": {
-        "time": "12:00",
-        "days": [
-          "Friday"
-        ]
-      },
-      "rating": {
-        "average": 6.5
-      },
-      "weight": 81,
-      "network": {
-        "id": 78,
-        "name": "Disney Channel",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://disneynow.com/all-shows/disney-channel"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 7096,
-        "thetvdb": 79317,
-        "imdb": "tt0493093"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15391.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15391.jpg"
-      },
-      "summary": "<p>A pop singer moves to Malibu, Cal., where she keeps her celebrity status under wraps as she tries to maintain some semblance of a 'normal' life among her new schoolmates.</p>",
-      "updated": 1666989770,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/777"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/68769"
-        }
-      },
-      "category": "finished",
-      "id": 31
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/1408/thats-so-raven",
-      "name": "That's So Raven",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy",
-        "Children",
-        "Fantasy"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2003-01-17",
-      "ended": "2007-11-10",
-      "officialSite": null,
-      "schedule": {
-        "time": "19:30",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
           "Sunday"
         ]
       },
       "rating": {
-        "average": 7.4
-      },
-      "weight": 64,
-      "network": {
-        "id": 78,
-        "name": "Disney Channel",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://disneynow.com/all-shows/disney-channel"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 5504,
-        "thetvdb": 78258,
-        "imdb": "tt0300865"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/8/20019.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/8/20019.jpg"
-      },
-      "summary": "<p><b>That's So Raven</b> is a hit live-action sitcom about Raven Baxter, a winsome teen whose ability to glimpse flashes of the future often gets her into hot water.</p>",
-      "updated": 1623519541,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/1408"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/128778"
-        }
-      },
-      "category": "finished",
-      "id": 32
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/2206/sonny-with-a-chance",
-      "name": "Sonny with a Chance",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Comedy",
-        "Family",
-        "Music"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "2009-02-08",
-      "ended": "2011-01-09",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Sunday"
-        ]
-      },
-      "rating": {
-        "average": 6.7
-      },
-      "weight": 74,
-      "network": {
-        "id": 78,
-        "name": "Disney Channel",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://disneynow.com/all-shows/disney-channel"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 19770,
-        "thetvdb": 84963,
-        "imdb": "tt1252374"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/316/792445.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/316/792445.jpg"
-      },
-      "summary": "<p>Sonny, a talented Midwestern girl, has won a nationwide talent search to move to Los Angeles and star in a popular television series. Sonny's home and work life is documented along with her adjustment to life in the spotlight.</p>",
-      "updated": 1660318520,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/2206"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/181245"
-        }
-      },
-      "category": "finished",
-      "id": 33
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/788/greek",
-      "name": "GREEK",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Comedy"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2007-07-09",
-      "ended": "2011-03-07",
-      "officialSite": "http://freeform.go.com/shows/greek",
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Monday"
-        ]
-      },
-      "rating": {
-        "average": 7.8
-      },
-      "weight": 90,
-      "network": {
-        "id": 26,
-        "name": "Freeform",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.freeform.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 16432,
-        "thetvdb": 80301,
-        "imdb": "tt0976014"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15483.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15483.jpg"
-      },
-      "summary": "<p>Rusty begins his freshman year at Cyprus-Rhodes University determined to change his life and rush a fraternity. However, his sister Casey, who is already ensconced as a sorority siren, is not too keen on having her younger brother invade her world.</p>",
-      "updated": 1650435214,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/788"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/69869"
-        }
-      },
-      "category": "finished",
-      "id": 34
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/523/the-west-wing",
-      "name": "The West Wing",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "1999-09-22",
-      "ended": "2006-05-14",
-      "officialSite": null,
-      "schedule": {
-        "time": "20:00",
-        "days": [
-          "Sunday"
-        ]
-      },
-      "rating": {
-        "average": 8.7
+        "average": 8.9
       },
       "weight": 96,
       "network": {
-        "id": 1,
-        "name": "NBC",
+        "id": 8,
+        "name": "HBO",
         "country": {
           "name": "United States",
           "code": "US",
           "timezone": "America/New_York"
         },
-        "officialSite": "https://www.nbc.com/"
+        "officialSite": "https://www.hbo.com/"
       },
       "webChannel": null,
       "dvdCountry": null,
       "externals": {
-        "tvrage": 6289,
-        "thetvdb": 72521,
-        "imdb": "tt0200276"
+        "tvrage": 6206,
+        "thetvdb": 75299,
+        "imdb": "tt0141842"
       },
       "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11284.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11284.jpg"
+        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11341.jpg",
+        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11341.jpg"
       },
-      "summary": "<p>The entire White House staff bristles with activity when it's learned that the President injured himself during a bicycle accident, and his absence becomes a factor as chief of staff Leo McGarry must juggle a host of impending crises, including a mass boatlift of Cuban refugees approaching the Florida coast and the reaction of conservative Christians to a controversial televised comment by deputy chief of staff Josh Lyman.</p>",
-      "updated": 1670841880,
+      "summary": "<p><b>The Sopranos</b>, writer-producer-director David Chase's extraordinary television series, is nominally an urban gangster drama, but its true impact strikes closer to home: Like 1999's other screen touchstone, American Beauty, the HBO series chronicles a dysfunctional, suburban American family in bold relief. And for protagonist Tony Soprano, there's the added complexity posed by heading twin families, his collegial mob clan and his own, nouveau riche brood.</p>",
+      "updated": 1661802564,
       "_links": {
         "self": {
-          "href": "https://api.tvmaze.com/shows/523"
+          "href": "https://api.tvmaze.com/shows/527"
         },
         "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/47435"
-        }
-      },
-      "category": "finished",
-      "id": 35
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/567/gossip-girl",
-      "name": "Gossip Girl",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2007-09-19",
-      "ended": "2012-12-17",
-      "officialSite": null,
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Monday"
-        ]
-      },
-      "rating": {
-        "average": 7.4
-      },
-      "weight": 95,
-      "network": {
-        "id": 5,
-        "name": "The CW",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.cwtv.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 15619,
-        "thetvdb": 80547,
-        "imdb": "tt0397442"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/42/106320.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/42/106320.jpg"
-      },
-      "summary": "<p>The privileged prep school teens on Manhattan's Upper East Side first learn that notorious party girl Serena van der Woodsen is back in town the way they learn all the important news in their lives -- from the blog of the all-knowing albeit ultra-secretive <b>Gossip Girl</b>. No one knows Gossip Girl's identity, but everyone in this exclusive and complicated vicious circle relies on her website and text messages for the latest scoop. Even Serena's closest and most competitive friend, Blair Waldorf, is surprised to find that Serena has suddenly ended her self-imposed exile to boarding school and returned to Manhattan. This is a world you have to be born into, full of wealth, power, and prestige, keeping track of the constantly shifting friendships, jealousies and turmoil in this complex world isn't easy, but it's what Gossip Girl does best.</p>",
-      "updated": 1647215419,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/567"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/53281"
-        }
-      },
-      "category": "finished",
-      "id": 36
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/2052/unreal",
-      "name": "UnREAL",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 42,
-      "averageRuntime": 60,
-      "premiered": "2015-06-01",
-      "ended": "2018-07-16",
-      "officialSite": "https://www.hulu.com/unreal",
-      "schedule": {
-        "time": "",
-        "days": []
-      },
-      "rating": {
-        "average": 7.9
-      },
-      "weight": 90,
-      "network": null,
-      "webChannel": {
-        "id": 2,
-        "name": "Hulu",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.hulu.com/"
-      },
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 37012,
-        "thetvdb": 278264,
-        "imdb": "tt3314218"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/145/362622.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/145/362622.jpg"
-      },
-      "summary": "<p>Set against the backdrop of the hit dating competition show Everlasting, <b>UnREAL</b> is led by flawed heroine Rachel Goldberg, a young producer whose sole job is to manipulate her relationships with, and among, the contestants to get the vital dramatic and outrageous footage that the program's dispassionate executive producer, Quinn King, demands. What ensues is an eye-opening look at what happens in the outrageous world of unscripted television, where being a contestant can be vicious and being a producer a whole other reality.</p>",
-      "updated": 1649017817,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/2052"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/1492109"
-        }
-      },
-      "category": "finished",
-      "id": 37
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/525/gilmore-girls",
-      "name": "Gilmore Girls",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Romance"
-      ],
-      "status": "Ended",
-      "runtime": 60,
-      "averageRuntime": 60,
-      "premiered": "2000-10-05",
-      "ended": "2007-05-15",
-      "officialSite": null,
-      "schedule": {
-        "time": "21:00",
-        "days": [
-          "Tuesday"
-        ]
-      },
-      "rating": {
-        "average": 8.3
-      },
-      "weight": 95,
-      "network": {
-        "id": 5,
-        "name": "The CW",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.cwtv.com/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 3683,
-        "thetvdb": 76568,
-        "imdb": "tt0238784"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11308.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11308.jpg"
-      },
-      "summary": "<p><b>Gilmore Girls</b> is a drama centering around the relationship between a thirtysomething single mother and her teen daughter living in Stars Hollow, Connecticut.</p>",
-      "updated": 1618158592,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/525"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/47639"
-        }
-      },
-      "category": "finished",
-      "id": 38
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/7583/arthur",
-      "name": "Arthur",
-      "type": "Animation",
-      "language": "English",
-      "genres": [
-        "Adventure",
-        "Children"
-      ],
-      "status": "Ended",
-      "runtime": 30,
-      "averageRuntime": 30,
-      "premiered": "1996-09-02",
-      "ended": "2021-10-28",
-      "officialSite": "http://pbskids.org/arthur/",
-      "schedule": {
-        "time": "16:00",
-        "days": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ]
-      },
-      "rating": {
-        "average": 5
-      },
-      "weight": 86,
-      "network": {
-        "id": 85,
-        "name": "PBS",
-        "country": {
-          "name": "United States",
-          "code": "US",
-          "timezone": "America/New_York"
-        },
-        "officialSite": "https://www.pbs.org/"
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 2652,
-        "thetvdb": 74678,
-        "imdb": "tt0169414"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/79/197738.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/79/197738.jpg"
-      },
-      "summary": "<p>Based on the books by Marc Brown, these are the adventures of <b>Arthur</b>, an 8-year-old aardvark, and his family and friends as they grow up and learn how to be good neighbors to one another.</p>",
-      "updated": 1680478850,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/7583"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2147910"
-        }
-      },
-      "category": "finished",
-      "id": 39
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/6544/sesame-street",
-      "name": "Sesame Street",
-      "type": "Scripted",
-      "language": "English",
-      "genres": [
-        "Children"
-      ],
-      "status": "Running",
-      "runtime": 30,
-      "averageRuntime": 57,
-      "premiered": "1969-11-10",
-      "ended": null,
-      "officialSite": "https://www.hbomax.com/series/urn:hbo:series:GXouLWwp8MsPDIgEAAAqT",
-      "schedule": {
-        "time": "",
-        "days": [
-          "Thursday"
-        ]
-      },
-      "rating": {
-        "average": 8.2
-      },
-      "weight": 84,
-      "network": null,
-      "webChannel": {
-        "id": 329,
-        "name": "HBO Max",
-        "country": null,
-        "officialSite": "https://www.hbomax.com/"
-      },
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": 5152,
-        "thetvdb": 78419,
-        "imdb": "tt0063951"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/222/555972.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/222/555972.jpg"
-      },
-      "summary": "<p><b>Sesame Street</b> is a widely recognized and perpetually daring experiment in educational children's programming. This show has taken popular-culture and turned it upside-down. The fast-paced advertisements that had parents of the new era worrying for their children were the basis for the original format of this show. The show has often satirized pop culture, and made itself easier for parents to watch along too. And thus, the positive impact this show has had on modern society is beyond another. No show is more recognized the world over by as many generations and walks of life. Shown in its original format or with changes to reflect a regional education focus, Sesame Street is now seen in over 140 countries. The show that Entertainment Weekly named the \"20th Best Ever Show\" has changed the education scene to focus on \"entertainment\". This has turned out to be a valuable theory that not only...</p>",
-      "updated": 1656968879,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/6544"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2044717"
-        }
-      },
-      "category": "finished",
-      "id": 40
-    },
-    {
-      "url": "https://www.tvmaze.com/shows/12899/shtisel",
-      "name": "Shtisel",
-      "type": "Scripted",
-      "language": "Hebrew",
-      "genres": [
-        "Drama"
-      ],
-      "status": "Ended",
-      "runtime": 50,
-      "averageRuntime": 57,
-      "premiered": "2013-06-29",
-      "ended": "2021-02-14",
-      "officialSite": null,
-      "schedule": {
-        "time": "22:15",
-        "days": [
-          "Sunday"
-        ]
-      },
-      "rating": {
-        "average": 8.1
-      },
-      "weight": 70,
-      "network": {
-        "id": 554,
-        "name": "Yes",
-        "country": {
-          "name": "Israel",
-          "code": "IL",
-          "timezone": "Asia/Jerusalem"
-        },
-        "officialSite": null
-      },
-      "webChannel": null,
-      "dvdCountry": null,
-      "externals": {
-        "tvrage": null,
-        "thetvdb": 271347,
-        "imdb": "tt3069894"
-      },
-      "image": {
-        "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/44/110554.jpg",
-        "original": "https://static.tvmaze.com/uploads/images/original_untouched/44/110554.jpg"
-      },
-      "summary": "<p>Akiva and Shulem Shtisel, father and son, sit on a little balcony overlooking streets of the Geula neighborhood of Jerusalem. A year has passed since the mother died. All the other children have left the nest, and only Shulam and Akiva remain - quarreling, making up, and laughing about themselves and the rest of the world. All will change when Akiva meets Elisheva.</p>",
-      "updated": 1631708766,
-      "_links": {
-        "self": {
-          "href": "https://api.tvmaze.com/shows/12899"
-        },
-        "previousepisode": {
-          "href": "https://api.tvmaze.com/episodes/2029470"
+          "href": "https://api.tvmaze.com/episodes/47925"
         }
       },
       "category": "future",
-      "id": 41
+      "id": 10
     }
   ]
 }
