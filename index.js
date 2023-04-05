@@ -300,15 +300,11 @@ showSearch.addEventListener('submit', (e) => {
     let selectCategoryName = selectElement.options[selectElement.selectedIndex].id;
 
     let showURL = encodeURIComponent(input);
-    let completeShowURL = `${singlesearchURL}${showURL}`
-
-    // check if url exists
-
 
     if (selectCategoryName === '') {
         alert('Please select category.')
     } else {
-        fetch(completeShowURL)
+        fetch(`${singlesearchURL}${showURL}`)
             .then((response) => response.json())
             .then((data) => {
 

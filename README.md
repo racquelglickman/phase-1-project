@@ -1,4 +1,4 @@
-Design Details
+Phase 1 Project: Design Details
 
 1. Click on a category to display show images from that category
 2. Add a new show to a specific category

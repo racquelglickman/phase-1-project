@@ -92,7 +92,17 @@ div.sticky {
     background-color: #AAC0AF;
     padding: 40px;
     font-size: 25px;
+    display: flex;
+    justify-content: center;
 }
 
+.tv-image-logo {
+    height: 100px;
+    margin: 20px;
+}
 
+.website-title{
+    display: flex;
+    align-items: center;
+}
 
