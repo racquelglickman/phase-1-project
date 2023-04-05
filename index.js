@@ -45,7 +45,7 @@ navOptions.forEach((navChoice, index) => {
     // selected nav category (full name) -> name of correct category in db.json (one word)
     let navCategory = categories[index].option;
 
-    // when you click an h3, add shadow and fetch data
+    // when you click an h3, add shadow to text and fetch data
     navChoice.addEventListener('click', () => {
         console.log(`${navChoice.textContent} was clicked`);
         clickedCategory = navCategory;
@@ -130,6 +130,7 @@ function renderShows(shows) {
     });
 };
 
+// adds the overlaid elements that appear when the show image is moused over
 function renderOverlay(showObj, overlayDiv) {
 
     let textOverlay = document.createElement('div');
@@ -184,7 +185,7 @@ function renderOverlay(showObj, overlayDiv) {
             .then((response) => response.json())
             .then((data) => {
 
-                // get rid of id and add select options 
+                // get rid of id and add options to select form
                 data.forEach((eachShow, index) => {
                     delete eachShow.show.id;
                     eachShow.show.category = clickedCategory;
@@ -209,7 +210,7 @@ function renderOverlay(showObj, overlayDiv) {
 
                 }
             });
-    });
+    }, {once: true});
 
     buttonDiv.append(deleteButton, refreshButton);
     overlayDiv.append(buttonDiv);
