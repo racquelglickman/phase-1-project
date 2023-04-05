@@ -56,6 +56,12 @@ h3 {
     margin: 10px;
 }
 
+.refresh-button {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+}
+
 .change-form {
     position: relative;
     display: flex;
@@ -74,6 +80,9 @@ h3 {
     width: 30px;
 }
 
+.refresh-select {
+    width: 100%
+}
 
 
 div.sticky {
@@ -83,17 +92,6 @@ div.sticky {
     background-color: #AAC0AF;
     padding: 40px;
     font-size: 25px;
-}
-
-#movie-list {
-    display:flex;
-    justify-content: center;
-}
-
-#movie-list img {
-    width: 100px;
-    height: auto;
-    margin: 7px;
 }
 
 

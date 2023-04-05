@@ -1,3 +1,9 @@
+let baseURL = 'http://localhost:3000';
+let singlesearchURL = 'https://api.tvmaze.com/singlesearch/shows?q='
+let searchURL = 'https://api.tvmaze.com/search/shows?q='
+
+let showTitle = '';
+
 let navOptions = document.querySelectorAll('nav h3');
 
 let showSearch = document.querySelector('#show-search');
@@ -71,7 +77,7 @@ navOptions.forEach((navChoice, index) => {
 // fetch data for specific category before rendering
 function fetchData(category){
 
-    fetch(`http://localhost:3000/shows/${category}`)
+    fetch(`${baseURL}/shows/${category}`)
         .then((response) => response.json())
         .then((data) => {
             displayedShows.innerHTML ='';
@@ -92,8 +98,15 @@ function renderShows(shows) {
         showDiv.className = 'show-image-div'
 
         let img = document.createElement('img');
-        img.src = showObj.image.original;
         img.height = '300';
+        // img.src = showObj.image.original;
+
+        if (showObj.image === null) {
+            img.alt = 'Image Not Available'
+            img.src = '';
+        } else {
+            img.src = showObj.image.original;
+        }
 
         displayedShows.append(showDiv);
         showDiv.append(img);
@@ -124,16 +137,17 @@ function renderOverlay(showObj, overlayDiv) {
     textOverlay.className = 'text-overlay';
     overlayDiv.append(textOverlay);
 
-    let deleteButton = document.createElement('button');
-    deleteButton.textContent ='x';
-    deleteButton.className = 'delete-button';
+    let buttonDiv = document.createElement('div');
 
-    overlayDiv.append(deleteButton);
+    // button to delete show
+    let deleteButton = document.createElement('button');
+    deleteButton.textContent ='❎';
+    deleteButton.className = 'delete-button';
 
     deleteButton.addEventListener('click', () => {
         console.log('deleting this show');
 
-        fetch(`http://localhost:3000/show/${showObj.id}`,{
+        fetch(`${baseURL}/show/${showObj.id}`,{
             method: 'DELETE'
         })
         .then((response) => response.json())
@@ -141,6 +155,64 @@ function renderOverlay(showObj, overlayDiv) {
             fetchData(clickedCategory);
         });
     });
+
+    // button to fetch a new show if it's the wrong one
+    let refreshButton = document.createElement('button');
+    refreshButton.textContent ='🔄';
+    refreshButton.className = 'refresh-button';
+
+    refreshButton.addEventListener('click', () => {
+        console.log('refresh show'); 
+
+        let refreshForm = document.createElement('form');
+        refreshForm.className = 'refresh-form';
+        overlayDiv.insertBefore(refreshForm, changeButton);
+
+        let refreshSelect = document.createElement('select');
+        refreshSelect.className = 'refresh-select';
+        refreshForm.append(refreshSelect);
+
+        let firstOption = document.createElement('option');
+        firstOption.textContent = 'Select - ';
+        firstOption.hidden = 'hidden';
+        refreshSelect.append(firstOption)
+
+        let showURL = encodeURIComponent(showObj.name);
+
+        // select new show and PATCH to replace with new selection
+        fetch(`${searchURL}${showURL}`)
+            .then((response) => response.json())
+            .then((data) => {
+
+                // get rid of id and add select options 
+                data.forEach((eachShow, index) => {
+                    delete eachShow.show.id;
+                    eachShow.show.category = clickedCategory;
+
+                    let refreshOption = document.createElement('option');
+                    refreshOption.textContent = `${eachShow.show.name}: (Premiered ${eachShow.show.premiered})`
+                    refreshOption.dataset.id = index;
+
+                    refreshSelect.append(refreshOption);
+                });
+
+                let refreshSelection;
+                let fullRefreshSelection;
+
+                refreshSelect.onchange = () => {
+                    refreshSelection = refreshSelect.options[refreshSelect.selectedIndex]
+
+                    fullRefreshSelection = data[refreshSelection.dataset.id].show;
+
+                    // take the selected show and refresh show
+                    refreshShow(fullRefreshSelection, showObj);
+
+                }
+            });
+    });
+
+    buttonDiv.append(deleteButton, refreshButton);
+    overlayDiv.append(buttonDiv);
 
     // add button to change category
     let changeButton = document.createElement('button');
@@ -182,9 +254,7 @@ function renderOverlay(showObj, overlayDiv) {
             };
 
             // patch request to change db.json location
-            // console.log(showObj.name, showObj.id);
-            // console.log(`http://localhost:3000/shows/${clickedCategory}/${showObj.id}`)
-            fetch(`http://localhost:3000/show/${showObj.id}`, {
+            fetch(`${baseURL}/show/${showObj.id}`, {
                 method: "PATCH",
                 headers: {
                     "content-type": "application/json"
@@ -200,6 +270,23 @@ function renderOverlay(showObj, overlayDiv) {
     }, {once: true});
 };
 
+function refreshShow(fullRefreshSelection, showObj) {
+
+    fetch(`${baseURL}/show/${showObj.id}`, {
+        method: "PATCH",
+        headers: {
+            "content-type": "application/json",
+        },
+        body: JSON.stringify(fullRefreshSelection)
+    })
+    .then((response) => response.json())
+    .then((data) => {
+        console.log(data);
+        fetchData(clickedCategory);
+    });
+
+};
+
 // on form submit, reads input and category and creates the url to grab the show object 
 showSearch.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -212,23 +299,34 @@ showSearch.addEventListener('submit', (e) => {
     let selectCategoryName = selectElement.options[selectElement.selectedIndex].id;
 
     let showURL = encodeURIComponent(input);
+    let completeShowURL = `${singlesearchURL}${showURL}`
 
-    fetch(`https://api.tvmaze.com/singlesearch/shows?q=${showURL}&embed=episodes`)
-        .then((response) => response.json())
-        .then((data) => {
-            delete data.id;
+    // check if url exists
 
-            // adds category to object itself
-            data.category = selectCategoryName;
-            
-            postNewShow(data);
-        });
+
+    if (selectCategoryName === '') {
+        alert('Please select category.')
+    } else {
+        fetch(completeShowURL)
+            .then((response) => response.json())
+            .then((data) => {
+
+                // removes id from API and adds assigned category to object 
+                delete data.id;
+                data.category = selectCategoryName;
+                
+                postNewShow(data);
+            })
+            .catch((error) => {
+                alert('Please enter valid show name.');
+            })
+    };
 });
 
 // posts new array in db.json with category information and refetches data for clicked category
 function postNewShow(showObj) {
 
-    fetch(`http://localhost:3000/shows`, {
+    fetch(`${baseURL}/shows`, {
         method: "POST",
         headers: {
             "content-type": "application/json"
@@ -237,6 +335,7 @@ function postNewShow(showObj) {
     })
         .then((response) => response.json())
         .then((data) => {
+            console.log(data)
             fetchData(clickedCategory);
         });
 };
